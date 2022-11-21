@@ -1,72 +1,61 @@
-import {AiOutlineHome} from 'react-icons/ai'
-import {BsBriefcase} from 'react-icons/bs'
-import {FiLogOut} from 'react-icons/fi'
 import {Link, withRouter} from 'react-router-dom'
+
 import Cookies from 'js-cookie'
 
 import './index.css'
 
 const Header = props => {
-  const onClickLagout = () => {
-    const {history} = props
+  const onClickLogout = () => {
     Cookies.remove('jwt_token')
+    const {history} = props
     history.replace('/login')
   }
-
   return (
     <nav className="nav-header">
-      <div className="nav-bar-mobile-logo-container">
-        <Link to="/">
-          <img
-            src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
-            alt="website logo"
-            className="website-logo"
-          />
-        </Link>
-        <div className="navbar-icons-container">
+      <div className="nav-content">
+        <ul>
           <Link to="/">
-            <AiOutlineHome size="35" color="white" />
+            <li>
+              <img
+                className="website-logo"
+                src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
+                alt="website logo"
+              />
+            </li>
           </Link>
-          <Link to="jobs">
-            <BsBriefcase size="35" color="white" />
-          </Link>
-
-          <button
-            type="button"
-            className="mobile-button"
-            onClick={onClickLagout}
-          >
-            <FiLogOut size="35" color="white" />
-          </button>
-        </div>
-      </div>
-      <div className="desktop-container">
-        <Link to="/">
-          <img
-            src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
-            alt="website logo"
-            className="website-logo"
-          />
-        </Link>
-
-        <ul className="desktop-nav-menu">
-          <li className="nav-item">
+        </ul>
+        <ul className="nav-menu">
+          <li>
             <Link to="/" className="nav-link">
               Home
             </Link>
           </li>
-          <li className="nav-item">
+          <li>
             <Link to="/jobs" className="nav-link">
               Jobs
             </Link>
           </li>
         </ul>
-        <button type="button" className="logout-button" onClick={onClickLagout}>
-          Lagout
+        <button
+          type="button"
+          className="logout-desktop-btn"
+          onClick={onClickLogout}
+        >
+          Logout
+        </button>
+        <button
+          type="button"
+          className="logout-mobile-btn"
+          onClick={onClickLogout}
+        >
+          <img
+            src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png"
+            alt="logout icon"
+            className="logout-icon"
+          />
         </button>
       </div>
     </nav>
   )
 }
-
 export default withRouter(Header)

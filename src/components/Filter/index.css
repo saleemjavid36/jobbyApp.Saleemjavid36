@@ -1,27 +1,25 @@
-.filters-container {
-  padding-left: none;
-}
-.filter-heading {
-  color: #f1f5f9;
-  font-family: 'Roboto';
-  font-size: 24px;
-  font-weight: 500;
-}
-.check-box-li {
+.employ-class {
   display: flex;
-  margin-top: 10px;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
 }
-.radio-point-li {
+.filter-cont {
   display: flex;
-  margin-top: 10px;
+  flex-direction: column;
 }
-.ul-list {
-  padding-left: 0px;
+.check-box {
+  display: flex;
+  flex-direction: row;
+}
+.filter-head {
+  color: white;
+  font-size: 20px;
 }
 .label {
-  color: #f1f5f9;
-  font-family: 'Roboto';
-  font-size: 18px;
-  font-weight: 400;
-  margin-left: 10px;
+  color: white;
+  margin-left: 5px;
+}
+.line-filter {
+  width: 300px;
 }

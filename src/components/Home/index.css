@@ -1,53 +1,83 @@
-.responsive-container {
-  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+.home-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
   background-size: cover;
   height: 100vh;
-  padding: 15px;
+  width: 100%;
 }
-@media screen and (min-width: 778px) {
-  .responsive-container {
-    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
-    padding: 30px;
-    line-height: 1.5;
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  max-width: 350px;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-content {
+    align-items: flex-start;
+    margin: 20px;
+    max-width: 450px;
+    margin-top: 80px;
+    margin-left: 50px;
   }
 }
-.home-section-title {
-  color: white;
+
+.home-heading {
   font-family: 'Roboto';
-  font-size: 35px;
-  font-weight: 700;
-  margin-top: 45px;
-  max-width: 400px;
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 40px;
+  color: #e6e8ec;
+  text-align: center;
 }
-@media screen and (min-width: 778px) {
-  .home-section-title {
-    margin-top: 45px;
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 50px;
+    text-align: left;
   }
 }
-.home-section-description {
-  color: white;
+
+.home-description {
   font-family: 'Roboto';
-  font-size: 20px;
-  margin-top: 10px;
-  font-weight: 400;
-  max-width: 500px;
+  margin-top: 6px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #a6bcdb;
+  margin-bottom: 0;
+  text-align: center;
 }
-@media screen and (min-width: 778px) {
-  .home-section-description {
-    margin-top: 15px;
-    font-size: 22px;
-    max-width: 480px;
+
+@media screen and (min-width: 768px) {
+  .home-description {
+    font-size: 21px;
+    margin-top: 0;
+    text-align: left;
   }
 }
-.home-section-button {
-  color: white;
-  font-family: 'roboto';
+
+.shop-now-button {
+  width: 150px;
   font-size: 14px;
-  font-weight: 500;
-  background-color: #4f46e5;
-  width: 100px;
-  height: 30px;
-  border-radius: 5px;
-  cursor: pointer;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
   border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  background-color: #0967d2;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .shop-now-button {
+    font-size: 16px;
+  }
 }

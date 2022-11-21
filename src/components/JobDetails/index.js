@@ -62,9 +62,9 @@ class JobDetails extends Component {
     this.setState({status: activeStatus.progress})
     const {match} = this.props
     const {params} = match
-    const {jobId} = params
+    const {id} = params
     const token = Cookies.get('jwt_token')
-    const url = `https://apis.ccbp.in/jobs/${jobId}`
+    const url = `https://apis.ccbp.in/jobs/${id}`
     const options = {
       headers: {
         Authorization: `Bearer ${token}`,
@@ -82,7 +82,7 @@ class JobDetails extends Component {
   }
 
   onProgress = () => (
-    <div className="loader-container">
+    <div className="loader-container" testid="loader">
       <Loader type="ThreeDots" color="#ffffff" height="50" width="50" />
     </div>
   )

@@ -1,64 +1,60 @@
-import {Component} from 'react'
 import Cookies from 'js-cookie'
+import {Component} from 'react'
 
 import './index.css'
 
 class Profile extends Component {
   state = {
-    profileError: false,
-    profile: '',
+    profiles: '',
+    isLoading: false,
   }
 
   componentDidMount() {
-    this.getProfileDetails()
+    this.getProfile()
   }
 
-  getProfileDetails = async () => {
-    const jwtToken = Cookies.get('jwt_token')
+  profileList = profile => ({
+    name: profile.name,
+    profileImageUrl: profile.profile_image_url,
+    shortBio: profile.short_bio,
+  })
+
+  getProfile = async () => {
+    const token = Cookies.get('jwt_token')
+    const url = `https://apis.ccbp.in/profile`
     const options = {
       method: 'GET',
       headers: {
-        Authorization: `Bearer ${jwtToken}`,
+        Authorization: `Bearer ${token}`,
       },
     }
-    const apiUrl = 'https://apis.ccbp.in/profile'
-    const response = await fetch(apiUrl, options)
+    const response = await fetch(url, options)
+    // console.log(response)
     if (response.ok === true) {
-      const data = await response.json()
-      const updatedProfileData = {
-        name: data.profile_details.name,
-        profileImageUrl: data.profile_details.profile_image_url,
-        shortBio: data.profile_details.short_bio,
-      }
-      this.setState({profile: updatedProfileData, profileError: false})
-    } else {
-      this.setState({profileError: true})
+      const fetchedData = await response.json()
+      const updatedData = this.profileList(fetchedData.profile_details)
+      this.setState({profiles: updatedData, isLoading: true})
     }
   }
 
-  onClickRetry = () => this.getProfileDetails()
+  showProfile = () => {
+    this.getProfile()
+  }
 
   render() {
-    const {profile, profileError} = this.state
-    return profileError ? (
-      <div className="error-view">
-        <button
-          type="button"
-          className="retry-button"
-          onClick={this.onClickRetry()}
-        >
-          Retry
-        </button>
+    const {profiles, isLoading} = this.state
+    const {name, profileImageUrl, shortBio} = profiles
+    return isLoading ? (
+      <div className="profile">
+        <img className="profile-pic" src={profileImageUrl} alt="profile" />
+        <h1 className="name">{name}</h1>
+        <p className="bio">{shortBio}</p>
       </div>
     ) : (
-      <div className="profile-container">
-        <img
-          src={profile.profileImageUrl}
-          alt="profile"
-          className="profile-img"
-        />
-        <h1 className="profile-name">{profile.name}</h1>
-        <p className="profile-bio">{profile.shortBio}</p>
+      <div className="retry">
+        <button className="Retry" type="button" onClick={this.showProfile}>
+          Retry
+        </button>
       </div>
     )
   }

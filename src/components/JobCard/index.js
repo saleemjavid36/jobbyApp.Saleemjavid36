@@ -1,11 +1,10 @@
-import {BsStarFill, BsFillBriefcaseFill} from 'react-icons/bs'
-import {MdLocationOn} from 'react-icons/md'
-
 import {Link} from 'react-router-dom'
+import {BsStar, BsBag} from 'react-icons/bs'
+import {GoLocation} from 'react-icons/go'
 import './index.css'
 
 const JobCard = props => {
-  const {eachJobItemDetails} = props
+  const {eachJobDetails} = props
   const {
     jobDescription,
     companyLogo,
@@ -15,42 +14,41 @@ const JobCard = props => {
     title,
     eType,
     jobId,
-  } = eachJobItemDetails
+  } = eachJobDetails
   return (
     <Link to={`/jobs/${jobId}`} className="Link1">
-      <li className="job-item">
-        <div className="logo-title-location-container">
-          <div className="logo-title-container">
-            <img
-              src={companyLogo}
-              alt="company logo"
-              className="company-logo"
-            />
-            <div className="title-rating-container">
-              <h1 className="title-heading">{title}</h1>
-              <div className="rating-container">
-                <BsStarFill className="rating-icon" />
-                <p className="rating-heading">{rating}</p>
-              </div>
+      <li className="job-card0">
+        <div className="top-card">
+          <img src={companyLogo} alt="company logo" className="company-logo" />
+          <div className="title">
+            <h1 className="title-font">{title}</h1>
+            <div className="row">
+              <p className="rating">
+                <BsStar className="star" />
+                {rating}
+              </p>
             </div>
-          </div>
-          <div className="location-package-container">
-            <div className="location-employee-container">
-              <div className="location-container">
-                <MdLocationOn className="location-icon" />
-                <p className="location-heading">{location}</p>
-              </div>
-              <div className="employee-type-container">
-                <BsFillBriefcaseFill className="brief-case-icon" />
-                <p className="employee-type-heading">{eType}</p>
-              </div>
-            </div>
-            <p className="package-heading">{packages}</p>
           </div>
         </div>
-        <hr className="line" />
-        <h1 className="description-heading">Description</h1>
-        <p className="description-text">{jobDescription}</p>
+        <div className="font-cont">
+          <div className="row">
+            <div>
+              <p className="fonts">
+                <GoLocation className="font" />
+                {location}
+              </p>
+            </div>
+            <div>
+              <p className="fonts">
+                <BsBag className="font" /> {eType}
+              </p>
+            </div>
+          </div>
+          <div className="package">{packages}</div>
+        </div>
+        <hr className="line-job" />
+        <h1 className="des-name">Description</h1>
+        <p className="job-para">{jobDescription}</p>
       </li>
     </Link>
   )

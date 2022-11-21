@@ -1,68 +1,73 @@
 import './index.css'
 
 const Filter = props => {
-  const renderEmploymentFilter = () => {
-    const {employment, etypeValue} = props
-    return employment.map(eachEmployment => {
-      const {setCheckBoxId} = props
-      const onCheckBox = () => setCheckBoxId(eachEmployment.employmentTypeId)
+  const {
+    eList,
+    salaryList,
+    onCheckSalary,
+    onCheckEmp,
+    eTypeValue,
+    salaryValue,
+  } = props
 
-      return (
-        <li className="check-box-li" key={eachEmployment.employmentTypeId}>
-          <input
-            type="checkbox"
-            id={eachEmployment.employmentTypeId}
-            onClick={onCheckBox}
-            value={etypeValue}
-          />
-          <label htmlFor={eachEmployment.employmentTypeId} className="label">
-            {eachEmployment.label}
-          </label>
-        </li>
-      )
-    })
-  }
-
-  const renderTypeOfEmployeeFilter = () => (
-    <>
-      <h1 className="filter-heading">Types of Employment</h1>
-      <ul className="ul-list">{renderEmploymentFilter()}</ul>
-    </>
+  const typeOfEmployment = () => (
+    <ul className="employ-class">
+      {eList.map(each => {
+        const {label, employmentTypeId} = each
+        const onCheck2 = () => {
+          onCheckEmp(employmentTypeId)
+        }
+        return (
+          <li className="check-box" key={employmentTypeId}>
+            <input
+              id={employmentTypeId}
+              type="checkbox"
+              value={eTypeValue}
+              onClick={onCheck2}
+            />
+            <label htmlFor={employmentTypeId} className="label">
+              {label}
+            </label>
+          </li>
+        )
+      })}
+    </ul>
   )
-  const renderSalaryRange = () => {
-    const {salaryRangesDetails, salaryValue} = props
 
-    return salaryRangesDetails.map(eachSalaryRange => {
-      const {setActiveSalaryId} = props
-      const onRadioPoint = () =>
-        setActiveSalaryId(eachSalaryRange.salaryRangeId)
-      return (
-        <li className="radio-point-li">
-          <input
-            type="radio"
-            id={eachSalaryRange.salaryRangeId}
-            onClick={onRadioPoint}
-            value={salaryValue}
-          />
-          <label className="label" htmlFor={eachSalaryRange.salaryRangeId}>
-            {eachSalaryRange.label}
-          </label>
-        </li>
-      )
-    })
-  }
-  const renderSalarRangeFilter = () => (
-    <>
-      <h1 className="filter-heading">Salary Range</h1>
-      <ul className="ul-list">{renderSalaryRange()}</ul>
-    </>
+  const salaryRange = () => (
+    <ul className="employ-class">
+      {salaryList.map(each => {
+        const {label, salaryRangeId} = each
+        const onCheck = () => {
+          onCheckSalary(salaryRangeId)
+        }
+
+        return (
+          <li className="check-box" key={salaryRangeId}>
+            <input
+              id={salaryRangeId}
+              type="radio"
+              value={salaryValue}
+              onClick={onCheck}
+            />
+            <label htmlFor={salaryRangeId} className="label">
+              {label}
+            </label>
+          </li>
+        )
+      })}
+    </ul>
   )
+
   return (
-    <>
-      <div className="filters-container">{renderTypeOfEmployeeFilter()}</div>
-      <hr className="line" />
-      <div className="filters-container">{renderSalarRangeFilter()}</div>
-    </>
+    <div className="filter-cont">
+      <h1 className="filter-head">Type of Employment</h1>
+      {typeOfEmployment()}
+      <hr className="line-filter" />
+      <h1 className="filter-head">Salary Range</h1>
+      {salaryRange()}
+    </div>
   )
 }
+
 export default Filter
