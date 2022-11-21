@@ -1,0 +1,88 @@
+.nav-header {
+  display: flex;
+  justify-content: center;
+  background-color: #272727;
+}
+
+.nav-bar-mobile-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .nav-bar-mobile-logo-container {
+    display: none;
+  }
+}
+.website-logo {
+  width: 130px;
+}
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 170px;
+  }
+}
+.navbar-icons-container {
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mobile-button {
+  background-color: transparent;
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px;
+}
+/* desktop css */
+@media screen and (max-width: 767px) {
+  .desktop-container {
+    display: none !important;
+  }
+}
+
+.desktop-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1110px;
+  align-items: center;
+}
+.desktop-nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  list-style-type: none;
+}
+.nav-item {
+  font-family: 'Roboto';
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+.logout-button {
+  color: white;
+  font-family: 'roboto';
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #4f46e5;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}

@@ -1,0 +1,27 @@
+.filters-container {
+  padding-left: none;
+}
+.filter-heading {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+.check-box-li {
+  display: flex;
+  margin-top: 10px;
+}
+.radio-point-li {
+  display: flex;
+  margin-top: 10px;
+}
+.ul-list {
+  padding-left: 0px;
+}
+.label {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 10px;
+}
