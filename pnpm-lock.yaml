@@ -50,11 +50,16 @@ packages:
       node: '>=6.9.0'
     resolution:
       integrity: sha512-TDCmlK5eOvH+eH7cdAFlNXeVJqWIQ7gW9tY1GJIpUtFb6CmjVyq2VM3u71bOyR8CRihcCgMUYoDNyLXao3+70Q==
+<<<<<<< HEAD
   /@babel/compat-data/7.20.1:
+=======
+  /@babel/compat-data/7.20.5:
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
     resolution:
+<<<<<<< HEAD
       integrity: sha512-EWZ4mE2diW3QALKvDMiXnbZpRvlj+nayZ112nK93SnhqOtpdsbVD4W+2tEoT3YNBAG9RBR0ISY758ZkOgsn6pQ==
   /@babel/core/7.12.3:
     dependencies:
@@ -66,6 +71,19 @@ packages:
       '@babel/template': 7.18.10
       '@babel/traverse': 7.20.1
       '@babel/types': 7.20.2
+=======
+      integrity: sha512-KZXo2t10+/jxmkhNXc7pZTqRvSOIvVv/+lJwHS+B2rErwOyjuVRh60yVpb7liQ1U5t7lLJ1bz+t8tSypUZdm0g==
+  /@babel/core/7.12.3:
+    dependencies:
+      '@babel/code-frame': 7.18.6
+      '@babel/generator': 7.20.5
+      '@babel/helper-module-transforms': 7.20.2
+      '@babel/helpers': 7.20.6
+      '@babel/parser': 7.20.5
+      '@babel/template': 7.18.10
+      '@babel/traverse': 7.20.5
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
       convert-source-map: 1.9.0
       debug: 4.3.4
       gensync: 1.0.0-beta.2
@@ -79,6 +97,7 @@ packages:
       node: '>=6.9.0'
     resolution:
       integrity: sha512-0qXcZYKZp3/6N2jKYVxZv0aNCsxTSVCiK72DTiTYZAu7sjg73W0/aynWjMbiGd87EQL4WyA8reiJVh92AVla9g==
+<<<<<<< HEAD
   /@babel/core/7.20.2:
     dependencies:
       '@ampproject/remapping': 2.2.0
@@ -91,6 +110,20 @@ packages:
       '@babel/template': 7.18.10
       '@babel/traverse': 7.20.1
       '@babel/types': 7.20.2
+=======
+  /@babel/core/7.20.5:
+    dependencies:
+      '@ampproject/remapping': 2.2.0
+      '@babel/code-frame': 7.18.6
+      '@babel/generator': 7.20.5
+      '@babel/helper-compilation-targets': 7.20.0_@babel+core@7.20.5
+      '@babel/helper-module-transforms': 7.20.2
+      '@babel/helpers': 7.20.6
+      '@babel/parser': 7.20.5
+      '@babel/template': 7.18.10
+      '@babel/traverse': 7.20.5
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
       convert-source-map: 1.9.0
       debug: 4.3.4
       gensync: 1.0.0-beta.2
@@ -100,20 +133,34 @@ packages:
     engines:
       node: '>=6.9.0'
     resolution:
+<<<<<<< HEAD
       integrity: sha512-w7DbG8DtMrJcFOi4VrLm+8QM4az8Mo+PuLBKLp2zrYRCow8W/f9xiXm5sN53C8HksCyDQwCKha9JiDoIyPjT2g==
   /@babel/generator/7.20.4:
     dependencies:
       '@babel/types': 7.20.2
+=======
+      integrity: sha512-UdOWmk4pNWTm/4DlPUl/Pt4Gz4rcEMb7CY0Y3eJl5Yz1vI8ZJGmHWaVE55LoxRjdpx0z259GE9U5STA9atUinQ==
+  /@babel/generator/7.20.5:
+    dependencies:
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
       '@jridgewell/gen-mapping': 0.3.2
       jsesc: 2.5.2
     dev: true
     engines:
       node: '>=6.9.0'
     resolution:
+<<<<<<< HEAD
       integrity: sha512-luCf7yk/cm7yab6CAW1aiFnmEfBJplb/JojV56MYEK7ziWfGmFlTfmL9Ehwfy4gFhbjBfWO1wj7/TuSbVNEEtA==
   /@babel/helper-annotate-as-pure/7.18.6:
     dependencies:
       '@babel/types': 7.20.2
+=======
+      integrity: sha512-jl7JY2Ykn9S0yj4DQP82sYvPU+T3g0HFcWTqDLqiuA9tGRNIj9VfbtXGAYTTkyNEnQk1jkMGOdYka8aG/lulCA==
+  /@babel/helper-annotate-as-pure/7.18.6:
+    dependencies:
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -122,7 +169,11 @@ packages:
   /@babel/helper-builder-binary-assignment-operator-visitor/7.18.9:
     dependencies:
       '@babel/helper-explode-assignable-expression': 7.18.6
+<<<<<<< HEAD
       '@babel/types': 7.20.2
+=======
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -130,7 +181,11 @@ packages:
       integrity: sha512-yFQ0YCHoIqarl8BCRwBL8ulYUaZpz3bNsA7oFepAzee+8/+ImtADXNOmO5vJvsPff3qi+hvpkY/NYBTrBQgdNw==
   /@babel/helper-compilation-targets/7.20.0_@babel+core@7.12.3:
     dependencies:
+<<<<<<< HEAD
       '@babel/compat-data': 7.20.1
+=======
+      '@babel/compat-data': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/core': 7.12.3
       '@babel/helper-validator-option': 7.18.6
       browserslist: 4.21.4
@@ -142,10 +197,17 @@ packages:
       '@babel/core': ^7.0.0
     resolution:
       integrity: sha512-0jp//vDGp9e8hZzBc6N/KwA5ZK3Wsm/pfm4CrY7vzegkVxc65SgSn6wYOnwHe9Js9HRQ1YTCKLGPzDtaS3RoLQ==
+<<<<<<< HEAD
   /@babel/helper-compilation-targets/7.20.0_@babel+core@7.20.2:
     dependencies:
       '@babel/compat-data': 7.20.1
       '@babel/core': 7.20.2
+=======
+  /@babel/helper-compilation-targets/7.20.0_@babel+core@7.20.5:
+    dependencies:
+      '@babel/compat-data': 7.20.5
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-validator-option': 7.18.6
       browserslist: 4.21.4
       semver: 6.3.0
@@ -156,7 +218,11 @@ packages:
       '@babel/core': ^7.0.0
     resolution:
       integrity: sha512-0jp//vDGp9e8hZzBc6N/KwA5ZK3Wsm/pfm4CrY7vzegkVxc65SgSn6wYOnwHe9Js9HRQ1YTCKLGPzDtaS3RoLQ==
+<<<<<<< HEAD
   /@babel/helper-create-class-features-plugin/7.20.2_@babel+core@7.12.3:
+=======
+  /@babel/helper-create-class-features-plugin/7.20.5_@babel+core@7.12.3:
+>>>>>>> Add existing project files to Git
     dependencies:
       '@babel/core': 7.12.3
       '@babel/helper-annotate-as-pure': 7.18.6
@@ -172,10 +238,17 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0
     resolution:
+<<<<<<< HEAD
       integrity: sha512-k22GoYRAHPYr9I+Gvy2ZQlAe5mGy8BqWst2wRt8cwIufWTxrsVshhIBvYNqC80N0GSFWTsqRVexOtfzlgOEDvA==
   /@babel/helper-create-class-features-plugin/7.20.2_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+      integrity: sha512-3RCdA/EmEaikrhayahwToF0fpweU/8o2p8vhc1c/1kftHOdTKuC65kik/TLc+qfbS8JKw4qqJbne4ovICDhmww==
+  /@babel/helper-create-class-features-plugin/7.20.5_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-annotate-as-pure': 7.18.6
       '@babel/helper-environment-visitor': 7.18.9
       '@babel/helper-function-name': 7.19.0
@@ -189,8 +262,13 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0
     resolution:
+<<<<<<< HEAD
       integrity: sha512-k22GoYRAHPYr9I+Gvy2ZQlAe5mGy8BqWst2wRt8cwIufWTxrsVshhIBvYNqC80N0GSFWTsqRVexOtfzlgOEDvA==
   /@babel/helper-create-regexp-features-plugin/7.19.0_@babel+core@7.12.3:
+=======
+      integrity: sha512-3RCdA/EmEaikrhayahwToF0fpweU/8o2p8vhc1c/1kftHOdTKuC65kik/TLc+qfbS8JKw4qqJbne4ovICDhmww==
+  /@babel/helper-create-regexp-features-plugin/7.20.5_@babel+core@7.12.3:
+>>>>>>> Add existing project files to Git
     dependencies:
       '@babel/core': 7.12.3
       '@babel/helper-annotate-as-pure': 7.18.6
@@ -201,10 +279,17 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0
     resolution:
+<<<<<<< HEAD
       integrity: sha512-htnV+mHX32DF81amCDrwIDr8nrp1PTm+3wfBN9/v8QJOLEioOCOG7qNyq0nHeFiWbT3Eb7gsPwEmV64UCQ1jzw==
   /@babel/helper-create-regexp-features-plugin/7.19.0_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+      integrity: sha512-m68B1lkg3XDGX5yCvGO0kPx3v9WIYLnzjKfPcQiwntEQa5ZeRkPmo2X/ISJc8qxWGfwUr+kvZAeEzAwLec2r2w==
+  /@babel/helper-create-regexp-features-plugin/7.20.5_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-annotate-as-pure': 7.18.6
       regexpu-core: 5.2.2
     dev: true
@@ -213,7 +298,11 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0
     resolution:
+<<<<<<< HEAD
       integrity: sha512-htnV+mHX32DF81amCDrwIDr8nrp1PTm+3wfBN9/v8QJOLEioOCOG7qNyq0nHeFiWbT3Eb7gsPwEmV64UCQ1jzw==
+=======
+      integrity: sha512-m68B1lkg3XDGX5yCvGO0kPx3v9WIYLnzjKfPcQiwntEQa5ZeRkPmo2X/ISJc8qxWGfwUr+kvZAeEzAwLec2r2w==
+>>>>>>> Add existing project files to Git
   /@babel/helper-define-polyfill-provider/0.3.3_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
@@ -228,10 +317,17 @@ packages:
       '@babel/core': ^7.4.0-0
     resolution:
       integrity: sha512-z5aQKU4IzbqCC1XH0nAqfsFLMVSo22SBKUc0BxGrLkolTdPTructy0ToNnlO2zA4j9Q/7pjMZf0DSY+DSTYzww==
+<<<<<<< HEAD
   /@babel/helper-define-polyfill-provider/0.3.3_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-compilation-targets': 7.20.0_@babel+core@7.20.2
+=======
+  /@babel/helper-define-polyfill-provider/0.3.3_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-compilation-targets': 7.20.0_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
       debug: 4.3.4
       lodash.debounce: 4.0.8
@@ -250,7 +346,11 @@ packages:
       integrity: sha512-3r/aACDJ3fhQ/EVgFy0hpj8oHyHpQc+LPtJoY9SzTThAsStm4Ptegq92vqKoE3vD706ZVFWITnMnxucw+S9Ipg==
   /@babel/helper-explode-assignable-expression/7.18.6:
     dependencies:
+<<<<<<< HEAD
       '@babel/types': 7.20.2
+=======
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -259,7 +359,11 @@ packages:
   /@babel/helper-function-name/7.19.0:
     dependencies:
       '@babel/template': 7.18.10
+<<<<<<< HEAD
       '@babel/types': 7.20.2
+=======
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -267,7 +371,11 @@ packages:
       integrity: sha512-WAwHBINyrpqywkUH0nTnNgI5ina5TFn85HKS0pbPDfxFfhyR/aNQEn4hGi1P1JyT//I0t4OgXUlofzWILRvS5w==
   /@babel/helper-hoist-variables/7.18.6:
     dependencies:
+<<<<<<< HEAD
       '@babel/types': 7.20.2
+=======
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -275,7 +383,11 @@ packages:
       integrity: sha512-UlJQPkFqFULIcyW5sbzgbkxn2FKRgwWiRexcuaR8RNJRy8+LLveqPjwZV/bwrLZCN0eUHD/x8D0heK1ozuoo6Q==
   /@babel/helper-member-expression-to-functions/7.18.9:
     dependencies:
+<<<<<<< HEAD
       '@babel/types': 7.20.2
+=======
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -283,7 +395,11 @@ packages:
       integrity: sha512-RxifAh2ZoVU67PyKIO4AMi1wTenGfMR/O/ae0CCRqwgBAt5v7xjdtRw7UoSbsreKrQn5t7r89eruK/9JjYHuDg==
   /@babel/helper-module-imports/7.18.6:
     dependencies:
+<<<<<<< HEAD
       '@babel/types': 7.20.2
+=======
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -297,8 +413,13 @@ packages:
       '@babel/helper-split-export-declaration': 7.18.6
       '@babel/helper-validator-identifier': 7.19.1
       '@babel/template': 7.18.10
+<<<<<<< HEAD
       '@babel/traverse': 7.20.1
       '@babel/types': 7.20.2
+=======
+      '@babel/traverse': 7.20.5
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -306,7 +427,11 @@ packages:
       integrity: sha512-zvBKyJXRbmK07XhMuujYoJ48B5yvvmM6+wcpv6Ivj4Yg6qO7NOZOSnvZN9CRl1zz1Z4cKf8YejmCMh8clOoOeA==
   /@babel/helper-optimise-call-expression/7.18.6:
     dependencies:
+<<<<<<< HEAD
       '@babel/types': 7.20.2
+=======
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -323,8 +448,13 @@ packages:
       '@babel/core': 7.12.3
       '@babel/helper-annotate-as-pure': 7.18.6
       '@babel/helper-environment-visitor': 7.18.9
+<<<<<<< HEAD
       '@babel/helper-wrap-function': 7.19.0
       '@babel/types': 7.20.2
+=======
+      '@babel/helper-wrap-function': 7.20.5
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -332,6 +462,7 @@ packages:
       '@babel/core': ^7.0.0
     resolution:
       integrity: sha512-dI7q50YKd8BAv3VEfgg7PS7yD3Rtbi2J1XMXaalXO0W0164hYLnh8zpjRS0mte9MfVp/tltvr/cfdXPvJr1opA==
+<<<<<<< HEAD
   /@babel/helper-remap-async-to-generator/7.18.9_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
@@ -339,6 +470,15 @@ packages:
       '@babel/helper-environment-visitor': 7.18.9
       '@babel/helper-wrap-function': 7.19.0
       '@babel/types': 7.20.2
+=======
+  /@babel/helper-remap-async-to-generator/7.18.9_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-annotate-as-pure': 7.18.6
+      '@babel/helper-environment-visitor': 7.18.9
+      '@babel/helper-wrap-function': 7.20.5
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -351,8 +491,13 @@ packages:
       '@babel/helper-environment-visitor': 7.18.9
       '@babel/helper-member-expression-to-functions': 7.18.9
       '@babel/helper-optimise-call-expression': 7.18.6
+<<<<<<< HEAD
       '@babel/traverse': 7.20.1
       '@babel/types': 7.20.2
+=======
+      '@babel/traverse': 7.20.5
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -360,7 +505,11 @@ packages:
       integrity: sha512-T7ahH7wV0Hfs46SFh5Jz3s0B6+o8g3c+7TMxu7xKfmHikg7EAZ3I2Qk9LFhjxXq8sL7UkP5JflezNwoZa8WvWw==
   /@babel/helper-simple-access/7.20.2:
     dependencies:
+<<<<<<< HEAD
       '@babel/types': 7.20.2
+=======
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -368,7 +517,11 @@ packages:
       integrity: sha512-+0woI/WPq59IrqDYbVGfshjT5Dmk/nnbdpcF8SnMhhXObpTq2KNBdLFRFrkVdbDOyUmHBCxzm5FHV1rACIkIbA==
   /@babel/helper-skip-transparent-expression-wrappers/7.20.0:
     dependencies:
+<<<<<<< HEAD
       '@babel/types': 7.20.2
+=======
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -376,7 +529,11 @@ packages:
       integrity: sha512-5y1JYeNKfvnT8sZcK9DVRtpTbGiomYIHviSP3OQWmDPU3DeH4a1ZlT/N2lyQ5P8egjcRaT/Y9aNqUxK0WsnIIg==
   /@babel/helper-split-export-declaration/7.18.6:
     dependencies:
+<<<<<<< HEAD
       '@babel/types': 7.20.2
+=======
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -399,27 +556,49 @@ packages:
       node: '>=6.9.0'
     resolution:
       integrity: sha512-XO7gESt5ouv/LRJdrVjkShckw6STTaB7l9BrpBaAHDeF5YZT+01PCwmR0SJHnkW6i8OwW/EVWRShfi4j2x+KQw==
+<<<<<<< HEAD
   /@babel/helper-wrap-function/7.19.0:
     dependencies:
       '@babel/helper-function-name': 7.19.0
       '@babel/template': 7.18.10
       '@babel/traverse': 7.20.1
       '@babel/types': 7.20.2
+=======
+  /@babel/helper-wrap-function/7.20.5:
+    dependencies:
+      '@babel/helper-function-name': 7.19.0
+      '@babel/template': 7.18.10
+      '@babel/traverse': 7.20.5
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
     resolution:
+<<<<<<< HEAD
       integrity: sha512-txX8aN8CZyYGTwcLhlk87KRqncAzhh5TpQamZUa0/u3an36NtDpUP6bQgBCBcLeBs09R/OwQu3OjK0k/HwfNDg==
   /@babel/helpers/7.20.1:
     dependencies:
       '@babel/template': 7.18.10
       '@babel/traverse': 7.20.1
       '@babel/types': 7.20.2
+=======
+      integrity: sha512-bYMxIWK5mh+TgXGVqAtnu5Yn1un+v8DDZtqyzKRLUzrh70Eal2O3aZ7aPYiMADO4uKlkzOiRiZ6GX5q3qxvW9Q==
+  /@babel/helpers/7.20.6:
+    dependencies:
+      '@babel/template': 7.18.10
+      '@babel/traverse': 7.20.5
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
     resolution:
+<<<<<<< HEAD
       integrity: sha512-J77mUVaDTUJFZ5BpP6mMn6OIl3rEWymk2ZxDBQJUG3P+PbmyMcF3bYWvz0ma69Af1oobDqT/iAsvzhB58xhQUg==
+=======
+      integrity: sha512-Pf/OjgfgFRW5bApskEz5pvidpim7tEDPlFtKcNRXWmfHGn9IEI2W2flqRQXTFb7gIPTyK++N6rVHuwKut4XK6w==
+>>>>>>> Add existing project files to Git
   /@babel/highlight/7.18.6:
     dependencies:
       '@babel/helper-validator-identifier': 7.19.1
@@ -429,13 +608,21 @@ packages:
       node: '>=6.9.0'
     resolution:
       integrity: sha512-u7stbOuYjaPezCuLj29hNW1v64M2Md2qupEKP1fHc7WdOA3DgLh37suiSrZYY7haUB7iBeQZ9P1uiRF359do3g==
+<<<<<<< HEAD
   /@babel/parser/7.20.3:
+=======
+  /@babel/parser/7.20.5:
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.0.0'
     hasBin: true
     resolution:
+<<<<<<< HEAD
       integrity: sha512-OP/s5a94frIPXwjzEcv5S/tpQfc6XhxYUnmWpgdqMWGgYCuErA3SzozaRAMQgSZWKeTJxht9aWAkUY+0UzvOFg==
+=======
+      integrity: sha512-r27t/cy/m9uKLXQNWWebeCUHgnAZq0CpG1OwKRxzJMP1vpSU4bSIK2hq+/cp0bQxetkXx38n09rNu8jVkcK/zA==
+>>>>>>> Add existing project files to Git
   /@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/7.18.6_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
@@ -447,9 +634,15 @@ packages:
       '@babel/core': ^7.0.0
     resolution:
       integrity: sha512-Dgxsyg54Fx1d4Nge8UnvTrED63vrwOdPmyvPzlNN/boaliRP54pm3pGzZD1SJUwrBA+Cs/xdG8kXX6Mn/RfISQ==
+<<<<<<< HEAD
   /@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -471,12 +664,21 @@ packages:
       '@babel/core': ^7.13.0
     resolution:
       integrity: sha512-AHrP9jadvH7qlOj6PINbgSuphjQUAK7AOT7DPjBo9EHoLhQTnnK5u45e1Hd4DbSQEO9nqPWtQ89r+XEOWFScKg==
+<<<<<<< HEAD
   /@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/7.18.9_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/helper-skip-transparent-expression-wrappers': 7.20.0
       '@babel/plugin-proposal-optional-chaining': 7.18.9_@babel+core@7.20.2
+=======
+  /@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/7.18.9_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/helper-skip-transparent-expression-wrappers': 7.20.0
+      '@babel/plugin-proposal-optional-chaining': 7.18.9_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -498,6 +700,7 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-Gh5rchzSwE4kC+o/6T8waD0WHEQIsDmjltY8WnWRXHUdH8axZhuH86Ov9M72YhJfDrZseQwuuWaaIT/TmePp3g==
+<<<<<<< HEAD
   /@babel/plugin-proposal-async-generator-functions/7.20.1_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
@@ -505,6 +708,15 @@ packages:
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/helper-remap-async-to-generator': 7.18.9_@babel+core@7.20.2
       '@babel/plugin-syntax-async-generators': 7.8.4_@babel+core@7.20.2
+=======
+  /@babel/plugin-proposal-async-generator-functions/7.20.1_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-environment-visitor': 7.18.9
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/helper-remap-async-to-generator': 7.18.9_@babel+core@7.20.5
+      '@babel/plugin-syntax-async-generators': 7.8.4_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -515,7 +727,11 @@ packages:
   /@babel/plugin-proposal-class-properties/7.18.6_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
+<<<<<<< HEAD
       '@babel/helper-create-class-features-plugin': 7.20.2_@babel+core@7.12.3
+=======
+      '@babel/helper-create-class-features-plugin': 7.20.5_@babel+core@7.12.3
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -524,10 +740,17 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-cumfXOF0+nzZrrN8Rf0t7M+tF6sZc7vhQwYQck9q1/5w2OExlD+b4v4RpMJFaV1Z7WcDRgO6FqvxqxGlwo+RHQ==
+<<<<<<< HEAD
   /@babel/plugin-proposal-class-properties/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-create-class-features-plugin': 7.20.2_@babel+core@7.20.2
+=======
+  /@babel/plugin-proposal-class-properties/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-create-class-features-plugin': 7.20.5_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -539,7 +762,11 @@ packages:
   /@babel/plugin-proposal-class-static-block/7.18.6_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
+<<<<<<< HEAD
       '@babel/helper-create-class-features-plugin': 7.20.2_@babel+core@7.12.3
+=======
+      '@babel/helper-create-class-features-plugin': 7.20.5_@babel+core@7.12.3
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-class-static-block': 7.14.5_@babel+core@7.12.3
     dev: true
@@ -549,12 +776,21 @@ packages:
       '@babel/core': ^7.12.0
     resolution:
       integrity: sha512-+I3oIiNxrCpup3Gi8n5IGMwj0gOCAjcJUSQEcotNnCCPMEnixawOQ+KeJPlgfjzx+FKQ1QSyZOWe7wmoJp7vhw==
+<<<<<<< HEAD
   /@babel/plugin-proposal-class-static-block/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-create-class-features-plugin': 7.20.2_@babel+core@7.20.2
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-class-static-block': 7.14.5_@babel+core@7.20.2
+=======
+  /@babel/plugin-proposal-class-static-block/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-create-class-features-plugin': 7.20.5_@babel+core@7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/plugin-syntax-class-static-block': 7.14.5_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -562,6 +798,7 @@ packages:
       '@babel/core': ^7.12.0
     resolution:
       integrity: sha512-+I3oIiNxrCpup3Gi8n5IGMwj0gOCAjcJUSQEcotNnCCPMEnixawOQ+KeJPlgfjzx+FKQ1QSyZOWe7wmoJp7vhw==
+<<<<<<< HEAD
   /@babel/plugin-proposal-decorators/7.20.2_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
@@ -570,13 +807,27 @@ packages:
       '@babel/helper-replace-supers': 7.19.1
       '@babel/helper-split-export-declaration': 7.18.6
       '@babel/plugin-syntax-decorators': 7.19.0_@babel+core@7.20.2
+=======
+  /@babel/plugin-proposal-decorators/7.20.5_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-create-class-features-plugin': 7.20.5_@babel+core@7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/helper-replace-supers': 7.19.1
+      '@babel/helper-split-export-declaration': 7.18.6
+      '@babel/plugin-syntax-decorators': 7.19.0_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
     peerDependencies:
       '@babel/core': ^7.0.0-0
     resolution:
+<<<<<<< HEAD
       integrity: sha512-nkBH96IBmgKnbHQ5gXFrcmez+Z9S2EIDKDQGp005ROqBigc88Tky4rzCnlP/lnlj245dCEQl4/YyV0V1kYh5dw==
+=======
+      integrity: sha512-Lac7PpRJXcC3s9cKsBfl+uc+DYXU5FD06BrTFunQO6QIQT+DwyzDPURAowI3bcvD1dZF/ank1Z5rstUJn3Hn4Q==
+>>>>>>> Add existing project files to Git
   /@babel/plugin-proposal-dynamic-import/7.18.6_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
@@ -589,11 +840,19 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-1auuwmK+Rz13SJj36R+jqFPMJWyKEDd7lLSdOj4oJK0UTgGueSAtkrCvz9ewmgyU/P941Rv2fQwZJN8s6QruXw==
+<<<<<<< HEAD
   /@babel/plugin-proposal-dynamic-import/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-dynamic-import': 7.8.3_@babel+core@7.20.2
+=======
+  /@babel/plugin-proposal-dynamic-import/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/plugin-syntax-dynamic-import': 7.8.3_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -613,11 +872,19 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-k1NtHyOMvlDDFeb9G5PhUXuGj8m/wiwojgQVEhJ/fsVsMCpLyOP4h0uGEjYJKrRI+EVPlb5Jk+Gt9P97lOGwtA==
+<<<<<<< HEAD
   /@babel/plugin-proposal-export-namespace-from/7.18.9_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-export-namespace-from': 7.8.3_@babel+core@7.20.2
+=======
+  /@babel/plugin-proposal-export-namespace-from/7.18.9_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/plugin-syntax-export-namespace-from': 7.8.3_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -637,11 +904,19 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-lr1peyn9kOdbYc0xr0OdHTZ5FMqS6Di+H0Fz2I/JwMzGmzJETNeOFq2pBySw6X/KFL5EWDjlJuMsUGRFb8fQgQ==
+<<<<<<< HEAD
   /@babel/plugin-proposal-json-strings/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-json-strings': 7.8.3_@babel+core@7.20.2
+=======
+  /@babel/plugin-proposal-json-strings/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/plugin-syntax-json-strings': 7.8.3_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -661,11 +936,19 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-128YbMpjCrP35IOExw2Fq+x55LMP42DzhOhX2aNNIdI9avSWl2PI0yuBWarr3RYpZBSPtabfadkH2yeRiMD61Q==
+<<<<<<< HEAD
   /@babel/plugin-proposal-logical-assignment-operators/7.18.9_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-logical-assignment-operators': 7.10.4_@babel+core@7.20.2
+=======
+  /@babel/plugin-proposal-logical-assignment-operators/7.18.9_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/plugin-syntax-logical-assignment-operators': 7.10.4_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -685,11 +968,19 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-wQxQzxYeJqHcfppzBDnm1yAY0jSRkUXR2z8RePZYrKwMKgMlE8+Z6LUno+bd6LvbGh8Gltvy74+9pIYkr+XkKA==
+<<<<<<< HEAD
   /@babel/plugin-proposal-nullish-coalescing-operator/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-nullish-coalescing-operator': 7.8.3_@babel+core@7.20.2
+=======
+  /@babel/plugin-proposal-nullish-coalescing-operator/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/plugin-syntax-nullish-coalescing-operator': 7.8.3_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -709,11 +1000,19 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-ozlZFogPqoLm8WBr5Z8UckIoE4YQ5KESVcNudyXOR8uqIkliTEgJ3RoketfG6pmzLdeZF0H/wjE9/cCEitBl7Q==
+<<<<<<< HEAD
   /@babel/plugin-proposal-numeric-separator/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-numeric-separator': 7.10.4_@babel+core@7.20.2
+=======
+  /@babel/plugin-proposal-numeric-separator/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/plugin-syntax-numeric-separator': 7.10.4_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -723,12 +1022,20 @@ packages:
       integrity: sha512-ozlZFogPqoLm8WBr5Z8UckIoE4YQ5KESVcNudyXOR8uqIkliTEgJ3RoketfG6pmzLdeZF0H/wjE9/cCEitBl7Q==
   /@babel/plugin-proposal-object-rest-spread/7.20.2_@babel+core@7.12.3:
     dependencies:
+<<<<<<< HEAD
       '@babel/compat-data': 7.20.1
+=======
+      '@babel/compat-data': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/core': 7.12.3
       '@babel/helper-compilation-targets': 7.20.0_@babel+core@7.12.3
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-object-rest-spread': 7.8.3_@babel+core@7.12.3
+<<<<<<< HEAD
       '@babel/plugin-transform-parameters': 7.20.3_@babel+core@7.12.3
+=======
+      '@babel/plugin-transform-parameters': 7.20.5_@babel+core@7.12.3
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -736,6 +1043,7 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-Ks6uej9WFK+fvIMesSqbAto5dD8Dz4VuuFvGJFKgIGSkJuRGcrwGECPA1fDgQK3/DbExBJpEkTeYeB8geIFCSQ==
+<<<<<<< HEAD
   /@babel/plugin-proposal-object-rest-spread/7.20.2_@babel+core@7.20.2:
     dependencies:
       '@babel/compat-data': 7.20.1
@@ -744,6 +1052,16 @@ packages:
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-object-rest-spread': 7.8.3_@babel+core@7.20.2
       '@babel/plugin-transform-parameters': 7.20.3_@babel+core@7.20.2
+=======
+  /@babel/plugin-proposal-object-rest-spread/7.20.2_@babel+core@7.20.5:
+    dependencies:
+      '@babel/compat-data': 7.20.5
+      '@babel/core': 7.20.5
+      '@babel/helper-compilation-targets': 7.20.0_@babel+core@7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/plugin-syntax-object-rest-spread': 7.8.3_@babel+core@7.20.5
+      '@babel/plugin-transform-parameters': 7.20.5_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -763,11 +1081,19 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-Q40HEhs9DJQyaZfUjjn6vE8Cv4GmMHCYuMGIWUnlxH6400VGxOuwWsPt4FxXxJkC/5eOzgn0z21M9gMT4MOhbw==
+<<<<<<< HEAD
   /@babel/plugin-proposal-optional-catch-binding/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-optional-catch-binding': 7.8.3_@babel+core@7.20.2
+=======
+  /@babel/plugin-proposal-optional-catch-binding/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/plugin-syntax-optional-catch-binding': 7.8.3_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -788,12 +1114,21 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-v5nwt4IqBXihxGsW2QmCWMDS3B3bzGIk/EQVZz2ei7f3NJl8NzAJVvUmpDW5q1CRNY+Beb/k58UAH1Km1N411w==
+<<<<<<< HEAD
   /@babel/plugin-proposal-optional-chaining/7.18.9_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/helper-skip-transparent-expression-wrappers': 7.20.0
       '@babel/plugin-syntax-optional-chaining': 7.8.3_@babel+core@7.20.2
+=======
+  /@babel/plugin-proposal-optional-chaining/7.18.9_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/helper-skip-transparent-expression-wrappers': 7.20.0
+      '@babel/plugin-syntax-optional-chaining': 7.8.3_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -804,7 +1139,11 @@ packages:
   /@babel/plugin-proposal-private-methods/7.18.6_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
+<<<<<<< HEAD
       '@babel/helper-create-class-features-plugin': 7.20.2_@babel+core@7.12.3
+=======
+      '@babel/helper-create-class-features-plugin': 7.20.5_@babel+core@7.12.3
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -813,10 +1152,17 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-nutsvktDItsNn4rpGItSNV2sz1XwS+nfU0Rg8aCx3W3NOKVzdMjJRu0O5OkgDp3ZGICSTbgRpxZoWsxoKRvbeA==
+<<<<<<< HEAD
   /@babel/plugin-proposal-private-methods/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-create-class-features-plugin': 7.20.2_@babel+core@7.20.2
+=======
+  /@babel/plugin-proposal-private-methods/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-create-class-features-plugin': 7.20.5_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -825,11 +1171,19 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-nutsvktDItsNn4rpGItSNV2sz1XwS+nfU0Rg8aCx3W3NOKVzdMjJRu0O5OkgDp3ZGICSTbgRpxZoWsxoKRvbeA==
+<<<<<<< HEAD
   /@babel/plugin-proposal-private-property-in-object/7.18.6_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
       '@babel/helper-annotate-as-pure': 7.18.6
       '@babel/helper-create-class-features-plugin': 7.20.2_@babel+core@7.12.3
+=======
+  /@babel/plugin-proposal-private-property-in-object/7.20.5_@babel+core@7.12.3:
+    dependencies:
+      '@babel/core': 7.12.3
+      '@babel/helper-annotate-as-pure': 7.18.6
+      '@babel/helper-create-class-features-plugin': 7.20.5_@babel+core@7.12.3
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-private-property-in-object': 7.14.5_@babel+core@7.12.3
     dev: true
@@ -838,6 +1192,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     resolution:
+<<<<<<< HEAD
       integrity: sha512-9Rysx7FOctvT5ouj5JODjAFAkgGoudQuLPamZb0v1TGLpapdNaftzifU8NTWQm0IRjqoYypdrSmyWgkocDQ8Dw==
   /@babel/plugin-proposal-private-property-in-object/7.18.6_@babel+core@7.20.2:
     dependencies:
@@ -846,17 +1201,35 @@ packages:
       '@babel/helper-create-class-features-plugin': 7.20.2_@babel+core@7.20.2
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-private-property-in-object': 7.14.5_@babel+core@7.20.2
+=======
+      integrity: sha512-Vq7b9dUA12ByzB4EjQTPo25sFhY+08pQDBSZRtUAkj7lb7jahaHR5igera16QZ+3my1nYR4dKsNdYj5IjPHilQ==
+  /@babel/plugin-proposal-private-property-in-object/7.20.5_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-annotate-as-pure': 7.18.6
+      '@babel/helper-create-class-features-plugin': 7.20.5_@babel+core@7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/plugin-syntax-private-property-in-object': 7.14.5_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
     peerDependencies:
       '@babel/core': ^7.0.0-0
     resolution:
+<<<<<<< HEAD
       integrity: sha512-9Rysx7FOctvT5ouj5JODjAFAkgGoudQuLPamZb0v1TGLpapdNaftzifU8NTWQm0IRjqoYypdrSmyWgkocDQ8Dw==
   /@babel/plugin-proposal-unicode-property-regex/7.18.6_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
       '@babel/helper-create-regexp-features-plugin': 7.19.0_@babel+core@7.12.3
+=======
+      integrity: sha512-Vq7b9dUA12ByzB4EjQTPo25sFhY+08pQDBSZRtUAkj7lb7jahaHR5igera16QZ+3my1nYR4dKsNdYj5IjPHilQ==
+  /@babel/plugin-proposal-unicode-property-regex/7.18.6_@babel+core@7.12.3:
+    dependencies:
+      '@babel/core': 7.12.3
+      '@babel/helper-create-regexp-features-plugin': 7.20.5_@babel+core@7.12.3
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -865,10 +1238,17 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-2BShG/d5yoZyXZfVePH91urL5wTG6ASZU9M4o03lKK8u8UW1y08OMttBSOADTcJrnPMpvDXRG3G8fyLh4ovs8w==
+<<<<<<< HEAD
   /@babel/plugin-proposal-unicode-property-regex/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-create-regexp-features-plugin': 7.19.0_@babel+core@7.20.2
+=======
+  /@babel/plugin-proposal-unicode-property-regex/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-create-regexp-features-plugin': 7.20.5_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -886,9 +1266,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-tycmZxkGfZaxhMRbXlPXuVFpdWlXpir2W4AMhSJgRKzk/eDlIXOhb2LHWoLpDF7TEHylV5zNhykX6KAgHJmTNw==
+<<<<<<< HEAD
   /@babel/plugin-syntax-async-generators/7.8.4_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-async-generators/7.8.4_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     peerDependencies:
@@ -904,9 +1290,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-wnTnFlG+YxQm3vDxpGE57Pj0srRU4sHE/mDkt1qv2YJJSeUAec2ma4WLUnUPeKjyrfntVwe/N6dCXpU+zL3Npg==
+<<<<<<< HEAD
   /@babel/plugin-syntax-bigint/7.8.3_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-bigint/7.8.3_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     peerDependencies:
@@ -922,9 +1314,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-fm4idjKla0YahUNgFNLCB0qySdsoPiZP3iQE3rky0mBUtMZ23yDJ9SJdg6dXTSDnulOVqiF3Hgr9nbXvXTQZYA==
+<<<<<<< HEAD
   /@babel/plugin-syntax-class-properties/7.12.13_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-class-properties/7.12.13_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     peerDependencies:
@@ -942,9 +1340,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-b+YyPmr6ldyNnM6sqYeMWE+bgJcJpO6yS4QD7ymxgH34GBPNDM/THBh8iunyvKIZztiwLH4CJZ0RxTk9emgpjw==
+<<<<<<< HEAD
   /@babel/plugin-syntax-class-static-block/7.14.5_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-class-static-block/7.14.5_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -953,9 +1357,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-b+YyPmr6ldyNnM6sqYeMWE+bgJcJpO6yS4QD7ymxgH34GBPNDM/THBh8iunyvKIZztiwLH4CJZ0RxTk9emgpjw==
+<<<<<<< HEAD
   /@babel/plugin-syntax-decorators/7.19.0_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-decorators/7.19.0_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -973,9 +1383,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-5gdGbFon+PszYzqs83S3E5mpi7/y/8M9eC90MRTZfduQOYW76ig6SOSPNe41IG5LoP3FGBn2N0RjVDSQiS94kQ==
+<<<<<<< HEAD
   /@babel/plugin-syntax-dynamic-import/7.8.3_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-dynamic-import/7.8.3_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     peerDependencies:
@@ -991,18 +1407,30 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-MXf5laXo6c1IbEbegDmzGPwGNTsHZmEy6QGznu5Sh2UCWvueywb2ee+CCE4zQiZstxU9BMoQO9i6zUFSY0Kj0Q==
+<<<<<<< HEAD
   /@babel/plugin-syntax-export-namespace-from/7.8.3_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-export-namespace-from/7.8.3_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     peerDependencies:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-MXf5laXo6c1IbEbegDmzGPwGNTsHZmEy6QGznu5Sh2UCWvueywb2ee+CCE4zQiZstxU9BMoQO9i6zUFSY0Kj0Q==
+<<<<<<< HEAD
   /@babel/plugin-syntax-flow/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-flow/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1022,9 +1450,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-IUh1vakzNoWalR8ch/areW7qFopR2AEw03JlG7BbrDqmQ4X3q9uuipQwSGrUn7oGiemKjtSLDhNtQHzMHr1JdQ==
+<<<<<<< HEAD
   /@babel/plugin-syntax-import-assertions/7.20.0_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-import-assertions/7.20.0_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1042,9 +1476,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-Yqfm+XDx0+Prh3VSeEQCPU81yC+JWZ2pDPFSS4ZdpfZhp4MkFMaDC1UqseovEKwSUpnIL7+vK+Clp7bfh0iD7g==
+<<<<<<< HEAD
   /@babel/plugin-syntax-import-meta/7.10.4_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-import-meta/7.10.4_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     peerDependencies:
@@ -1060,9 +1500,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-lY6kdGpWHvjoe2vk4WrAapEuBR69EMxZl+RoGRhrFGNYVK8mOPAW8VfbT/ZgrFbXlDNiiaxQnAtgVCZ6jv30EA==
+<<<<<<< HEAD
   /@babel/plugin-syntax-json-strings/7.8.3_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-json-strings/7.8.3_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     peerDependencies:
@@ -1080,9 +1526,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-6mmljtAedFGTWu2p/8WIORGwy+61PLgOMPOdazc7YoJ9ZCWUyFy3A6CpPkRKLKD1ToAesxX8KGEViAiLo9N+7Q==
+<<<<<<< HEAD
   /@babel/plugin-syntax-jsx/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-jsx/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1100,9 +1552,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-d8waShlpFDinQ5MtvGU9xDAOzKH47+FFoney2baFIoMr952hKOLp1HR7VszoZvOsV/4+RRszNY7D17ba0te0ig==
+<<<<<<< HEAD
   /@babel/plugin-syntax-logical-assignment-operators/7.10.4_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-logical-assignment-operators/7.10.4_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     peerDependencies:
@@ -1118,9 +1576,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-aSff4zPII1u2QD7y+F8oDsz19ew4IGEJg9SVW+bqwpwtfFleiQDMdzA/R+UlWDzfnHFCxxleFT0PMIrR36XLNQ==
+<<<<<<< HEAD
   /@babel/plugin-syntax-nullish-coalescing-operator/7.8.3_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-nullish-coalescing-operator/7.8.3_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     peerDependencies:
@@ -1136,9 +1600,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-9H6YdfkcK/uOnY/K7/aA2xpzaAgkQn37yzWUMRK7OaPOqOpGS1+n0H5hxT9AUw9EsSjPW8SVyMJwYRtWs3X3ug==
+<<<<<<< HEAD
   /@babel/plugin-syntax-numeric-separator/7.10.4_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-numeric-separator/7.10.4_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     peerDependencies:
@@ -1154,9 +1624,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-XoqMijGZb9y3y2XskN+P1wUGiVwWZ5JmoDRwx5+3GmEplNyVM2s2Dg8ILFQm8rWM48orGy5YpI5Bl8U1y7ydlA==
+<<<<<<< HEAD
   /@babel/plugin-syntax-object-rest-spread/7.8.3_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-object-rest-spread/7.8.3_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     peerDependencies:
@@ -1172,9 +1648,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-6VPD0Pc1lpTqw0aKoeRTMiB+kWhAoT24PA+ksWSBrFtl5SIRVpZlwN3NNPQjehA2E/91FV3RjLWoVTglWcSV3Q==
+<<<<<<< HEAD
   /@babel/plugin-syntax-optional-catch-binding/7.8.3_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-optional-catch-binding/7.8.3_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     peerDependencies:
@@ -1190,9 +1672,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-KoK9ErH1MBlCPxV0VANkXW2/dw4vlbGDrFgz8bmUsBGYkFRcbRwMh6cIJubdPrkxRwuGdtCk0v/wPTKbQgBjkg==
+<<<<<<< HEAD
   /@babel/plugin-syntax-optional-chaining/7.8.3_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-optional-chaining/7.8.3_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     peerDependencies:
@@ -1210,9 +1698,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-0wVnp9dxJ72ZUJDV27ZfbSj6iHLoytYZmh3rFcxNnvsJF3ktkzLDZPy/mA17HGsaQT3/DQsWYX1f1QGWkCoVUg==
+<<<<<<< HEAD
   /@babel/plugin-syntax-private-property-in-object/7.14.5_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-private-property-in-object/7.14.5_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1232,9 +1726,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-hx++upLv5U1rgYfwe1xBQUhRmU41NEvpUvrp8jkrSCdvGSnM5/qdRMtylJ6PG5OFkBaHkbTAKTnd3/YyESRHFw==
+<<<<<<< HEAD
   /@babel/plugin-syntax-top-level-await/7.14.5_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-top-level-await/7.14.5_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1243,9 +1743,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-hx++upLv5U1rgYfwe1xBQUhRmU41NEvpUvrp8jkrSCdvGSnM5/qdRMtylJ6PG5OFkBaHkbTAKTnd3/YyESRHFw==
+<<<<<<< HEAD
   /@babel/plugin-syntax-typescript/7.20.0_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-syntax-typescript/7.20.0_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1265,9 +1771,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-9S9X9RUefzrsHZmKMbDXxweEH+YlE8JJEuat9FdvW9Qh1cw7W64jELCtWNkPBPX5En45uy28KGvA/AySqUh8CQ==
+<<<<<<< HEAD
   /@babel/plugin-transform-arrow-functions/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-arrow-functions/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1289,12 +1801,21 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-ARE5wZLKnTgPW7/1ftQmSi1CmkqqHo2DNmtztFhvgtOWSDfq0Cq9/9L+KnZNYSNrydBekhW3rwShduf59RoXag==
+<<<<<<< HEAD
   /@babel/plugin-transform-async-to-generator/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-module-imports': 7.18.6
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/helper-remap-async-to-generator': 7.18.9_@babel+core@7.20.2
+=======
+  /@babel/plugin-transform-async-to-generator/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-module-imports': 7.18.6
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/helper-remap-async-to-generator': 7.18.9_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -1313,9 +1834,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-ExUcOqpPWnliRcPqves5HJcJOvHvIIWfuS4sroBUenPuMdmW+SMHDakmtS7qOo13sVppmUijqeTv7qqGsvURpQ==
+<<<<<<< HEAD
   /@babel/plugin-transform-block-scoped-functions/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-block-scoped-functions/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1324,7 +1851,11 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-ExUcOqpPWnliRcPqves5HJcJOvHvIIWfuS4sroBUenPuMdmW+SMHDakmtS7qOo13sVppmUijqeTv7qqGsvURpQ==
+<<<<<<< HEAD
   /@babel/plugin-transform-block-scoping/7.20.2_@babel+core@7.12.3:
+=======
+  /@babel/plugin-transform-block-scoping/7.20.5_@babel+core@7.12.3:
+>>>>>>> Add existing project files to Git
     dependencies:
       '@babel/core': 7.12.3
       '@babel/helper-plugin-utils': 7.20.2
@@ -1334,10 +1865,17 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     resolution:
+<<<<<<< HEAD
       integrity: sha512-y5V15+04ry69OV2wULmwhEA6jwSWXO1TwAtIwiPXcvHcoOQUqpyMVd2bDsQJMW8AurjulIyUV8kDqtjSwHy1uQ==
   /@babel/plugin-transform-block-scoping/7.20.2_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+      integrity: sha512-WvpEIW9Cbj9ApF3yJCjIEEf1EiNJLtXagOrL5LNWEZOo3jv8pmPoYTSNJQvqej8OavVlgOoOPw6/htGZro6IkA==
+  /@babel/plugin-transform-block-scoping/7.20.5_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1345,7 +1883,11 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     resolution:
+<<<<<<< HEAD
       integrity: sha512-y5V15+04ry69OV2wULmwhEA6jwSWXO1TwAtIwiPXcvHcoOQUqpyMVd2bDsQJMW8AurjulIyUV8kDqtjSwHy1uQ==
+=======
+      integrity: sha512-WvpEIW9Cbj9ApF3yJCjIEEf1EiNJLtXagOrL5LNWEZOo3jv8pmPoYTSNJQvqej8OavVlgOoOPw6/htGZro6IkA==
+>>>>>>> Add existing project files to Git
   /@babel/plugin-transform-classes/7.20.2_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
@@ -1365,11 +1907,19 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-9rbPp0lCVVoagvtEyQKSo5L8oo0nQS/iif+lwlAz29MccX2642vWDlSZK+2T2buxbopotId2ld7zZAzRfz9j1g==
+<<<<<<< HEAD
   /@babel/plugin-transform-classes/7.20.2_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-annotate-as-pure': 7.18.6
       '@babel/helper-compilation-targets': 7.20.0_@babel+core@7.20.2
+=======
+  /@babel/plugin-transform-classes/7.20.2_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-annotate-as-pure': 7.18.6
+      '@babel/helper-compilation-targets': 7.20.0_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-environment-visitor': 7.18.9
       '@babel/helper-function-name': 7.19.0
       '@babel/helper-optimise-call-expression': 7.18.6
@@ -1395,9 +1945,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-+i0ZU1bCDymKakLxn5srGHrsAPRELC2WIbzwjLhHW9SIE1cPYkLCL0NlnXMZaM1vhfgA2+M7hySk42VBvrkBRw==
+<<<<<<< HEAD
   /@babel/plugin-transform-computed-properties/7.18.9_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-computed-properties/7.18.9_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1417,9 +1973,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-mENM+ZHrvEgxLTBXUiQ621rRXZes3KWUv6NdQlrnr1TkWVw+hUjQBZuP2X32qKlrlG2BzgR95gkuCRSkJl8vIw==
+<<<<<<< HEAD
   /@babel/plugin-transform-destructuring/7.20.2_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-destructuring/7.20.2_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1431,7 +1993,11 @@ packages:
   /@babel/plugin-transform-dotall-regex/7.18.6_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
+<<<<<<< HEAD
       '@babel/helper-create-regexp-features-plugin': 7.19.0_@babel+core@7.12.3
+=======
+      '@babel/helper-create-regexp-features-plugin': 7.20.5_@babel+core@7.12.3
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1440,10 +2006,17 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-6S3jpun1eEbAxq7TdjLotAsl4WpQI9DxfkycRcKrjhQYzU87qpXdknpBg/e+TdcMehqGnLFi7tnFUBR02Vq6wg==
+<<<<<<< HEAD
   /@babel/plugin-transform-dotall-regex/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-create-regexp-features-plugin': 7.19.0_@babel+core@7.20.2
+=======
+  /@babel/plugin-transform-dotall-regex/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-create-regexp-features-plugin': 7.20.5_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1463,9 +2036,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-d2bmXCtZXYc59/0SanQKbiWINadaJXqtvIQIzd4+hNwkWBgyCd5F/2t1kXoUdvPMrxzPvhK6EMQRROxsue+mfw==
+<<<<<<< HEAD
   /@babel/plugin-transform-duplicate-keys/7.18.9_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-duplicate-keys/7.18.9_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1486,9 +2065,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-wzEtc0+2c88FVR34aQmiz56dxEkxr2g8DQb/KfaFa1JYXOFVsbhvAonFN6PwVWj++fKmku8NP80plJ5Et4wqHw==
+<<<<<<< HEAD
   /@babel/plugin-transform-exponentiation-operator/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-exponentiation-operator/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-builder-binary-assignment-operator-visitor': 7.18.9
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
@@ -1498,11 +2083,19 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-wzEtc0+2c88FVR34aQmiz56dxEkxr2g8DQb/KfaFa1JYXOFVsbhvAonFN6PwVWj++fKmku8NP80plJ5Et4wqHw==
+<<<<<<< HEAD
   /@babel/plugin-transform-flow-strip-types/7.19.0_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-flow': 7.18.6_@babel+core@7.20.2
+=======
+  /@babel/plugin-transform-flow-strip-types/7.19.0_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/plugin-syntax-flow': 7.18.6_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -1521,9 +2114,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-yEfTRnjuskWYo0k1mHUqrVWaZwrdq8AYbfrpqULOJOaucGSp4mNMVps+YtA8byoevxS/urwU75vyhQIxcCgiBQ==
+<<<<<<< HEAD
   /@babel/plugin-transform-for-of/7.18.8_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-for-of/7.18.8_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1545,10 +2144,17 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-WvIBoRPaJQ5yVHzcnJFor7oS5Ls0PYixlTYE63lCj2RtdQEl15M68FXQlxnG6wdraJIXRdR7KI+hQ7q/9QjrCQ==
+<<<<<<< HEAD
   /@babel/plugin-transform-function-name/7.18.9_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-compilation-targets': 7.20.0_@babel+core@7.20.2
+=======
+  /@babel/plugin-transform-function-name/7.18.9_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-compilation-targets': 7.20.0_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-function-name': 7.19.0
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
@@ -1569,9 +2175,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-IFQDSRoTPnrAIrI5zoZv73IFeZu2dhu6irxQjY9rNjTT53VmKg9fenjvoiOWOkJ6mm4jKVPtdMzBY98Fp4Z4cg==
+<<<<<<< HEAD
   /@babel/plugin-transform-literals/7.18.9_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-literals/7.18.9_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1591,9 +2203,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-qSF1ihLGO3q+/g48k85tUjD033C29TNTVB2paCwZPVmOsjn9pClvYYrM2VeJpBY2bcNkuny0YUyTNRyRxJ54KA==
+<<<<<<< HEAD
   /@babel/plugin-transform-member-expression-literals/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-member-expression-literals/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1614,9 +2232,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-uG3od2mXvAtIFQIh0xrpLH6r5fpSQN04gIVovl+ODLdUMANokxQLZnPBHcjmv3GxRjnqwLuHvppjjcelqUFZvg==
+<<<<<<< HEAD
   /@babel/plugin-transform-modules-amd/7.19.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-modules-amd/7.19.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-module-transforms': 7.20.2
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
@@ -1639,9 +2263,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-8PIa1ym4XRTKuSsOUXqDG0YaOlEuTVvHMe5JCfgBMOtHvJKw/4NGovEGN33viISshG/rZNVrACiBmPQLvWN8xQ==
+<<<<<<< HEAD
   /@babel/plugin-transform-modules-commonjs/7.19.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-modules-commonjs/7.19.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-module-transforms': 7.20.2
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/helper-simple-access': 7.20.2
@@ -1666,9 +2296,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-fqGLBepcc3kErfR9R3DnVpURmckXP7gj7bAlrTQyBxrigFqszZCkFkcoxzCp2v32XmwXLvbw+8Yq9/b+QqksjQ==
+<<<<<<< HEAD
   /@babel/plugin-transform-modules-systemjs/7.19.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-modules-systemjs/7.19.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-hoist-variables': 7.18.6
       '@babel/helper-module-transforms': 7.20.2
       '@babel/helper-plugin-utils': 7.20.2
@@ -1692,9 +2328,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-dcegErExVeXcRqNtkRU/z8WlBLnvD4MRnHgNs3MytRO1Mn1sHRyhbcpYbVMGclAqOjdW+9cfkdZno9dFdfKLfQ==
+<<<<<<< HEAD
   /@babel/plugin-transform-modules-umd/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-modules-umd/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-module-transforms': 7.20.2
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
@@ -1704,10 +2346,17 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-dcegErExVeXcRqNtkRU/z8WlBLnvD4MRnHgNs3MytRO1Mn1sHRyhbcpYbVMGclAqOjdW+9cfkdZno9dFdfKLfQ==
+<<<<<<< HEAD
   /@babel/plugin-transform-named-capturing-groups-regex/7.19.1_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
       '@babel/helper-create-regexp-features-plugin': 7.19.0_@babel+core@7.12.3
+=======
+  /@babel/plugin-transform-named-capturing-groups-regex/7.20.5_@babel+core@7.12.3:
+    dependencies:
+      '@babel/core': 7.12.3
+      '@babel/helper-create-regexp-features-plugin': 7.20.5_@babel+core@7.12.3
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1715,11 +2364,19 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0
     resolution:
+<<<<<<< HEAD
       integrity: sha512-oWk9l9WItWBQYS4FgXD4Uyy5kq898lvkXpXQxoJEY1RnvPk4R/Dvu2ebXU9q8lP+rlMwUQTFf2Ok6d78ODa0kw==
   /@babel/plugin-transform-named-capturing-groups-regex/7.19.1_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-create-regexp-features-plugin': 7.19.0_@babel+core@7.20.2
+=======
+      integrity: sha512-mOW4tTzi5iTLnw+78iEq3gr8Aoq4WNRGpmSlrogqaiCBoR1HFhpU4JkpQFOHfeYx3ReVIFWOQJS4aZBRvuZ6mA==
+  /@babel/plugin-transform-named-capturing-groups-regex/7.20.5_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-create-regexp-features-plugin': 7.20.5_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1727,7 +2384,11 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0
     resolution:
+<<<<<<< HEAD
       integrity: sha512-oWk9l9WItWBQYS4FgXD4Uyy5kq898lvkXpXQxoJEY1RnvPk4R/Dvu2ebXU9q8lP+rlMwUQTFf2Ok6d78ODa0kw==
+=======
+      integrity: sha512-mOW4tTzi5iTLnw+78iEq3gr8Aoq4WNRGpmSlrogqaiCBoR1HFhpU4JkpQFOHfeYx3ReVIFWOQJS4aZBRvuZ6mA==
+>>>>>>> Add existing project files to Git
   /@babel/plugin-transform-new-target/7.18.6_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
@@ -1739,9 +2400,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-DjwFA/9Iu3Z+vrAn+8pBUGcjhxKguSMlsFqeCKbhb9BAV756v0krzVK04CRDi/4aqmk8BsHb4a/gFcaA5joXRw==
+<<<<<<< HEAD
   /@babel/plugin-transform-new-target/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-new-target/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1762,9 +2429,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-uvGz6zk+pZoS1aTZrOvrbj6Pp/kK2mp45t2B+bTDre2UgsZZ8EZLSJtUg7m/no0zOJUWgFONpB7Zv9W2tSaFlA==
+<<<<<<< HEAD
   /@babel/plugin-transform-object-super/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-object-super/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/helper-replace-supers': 7.19.1
     dev: true
@@ -1774,7 +2447,11 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-uvGz6zk+pZoS1aTZrOvrbj6Pp/kK2mp45t2B+bTDre2UgsZZ8EZLSJtUg7m/no0zOJUWgFONpB7Zv9W2tSaFlA==
+<<<<<<< HEAD
   /@babel/plugin-transform-parameters/7.20.3_@babel+core@7.12.3:
+=======
+  /@babel/plugin-transform-parameters/7.20.5_@babel+core@7.12.3:
+>>>>>>> Add existing project files to Git
     dependencies:
       '@babel/core': 7.12.3
       '@babel/helper-plugin-utils': 7.20.2
@@ -1784,10 +2461,17 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     resolution:
+<<<<<<< HEAD
       integrity: sha512-oZg/Fpx0YDrj13KsLyO8I/CX3Zdw7z0O9qOd95SqcoIzuqy/WTGWvePeHAnZCN54SfdyjHcb1S30gc8zlzlHcA==
   /@babel/plugin-transform-parameters/7.20.3_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+      integrity: sha512-h7plkOmcndIUWXZFLgpbrh2+fXAi47zcUX7IrOQuZdLD0I0KvjJ6cvo3BEcAOsDOcZhVKGJqv07mkSqK0y2isQ==
+  /@babel/plugin-transform-parameters/7.20.5_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1795,7 +2479,11 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     resolution:
+<<<<<<< HEAD
       integrity: sha512-oZg/Fpx0YDrj13KsLyO8I/CX3Zdw7z0O9qOd95SqcoIzuqy/WTGWvePeHAnZCN54SfdyjHcb1S30gc8zlzlHcA==
+=======
+      integrity: sha512-h7plkOmcndIUWXZFLgpbrh2+fXAi47zcUX7IrOQuZdLD0I0KvjJ6cvo3BEcAOsDOcZhVKGJqv07mkSqK0y2isQ==
+>>>>>>> Add existing project files to Git
   /@babel/plugin-transform-property-literals/7.18.6_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
@@ -1807,9 +2495,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-cYcs6qlgafTud3PAzrrRNbQtfpQ8+y/+M5tKmksS9+M1ckbH6kzY8MrexEM9mcA6JDsukE19iIRvAyYl463sMg==
+<<<<<<< HEAD
   /@babel/plugin-transform-property-literals/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-property-literals/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1840,9 +2534,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-TV4sQ+T013n61uMoygyMRm+xf04Bd5oqFpv2jAEQwSZ8NwQA7zeRPg1LMVg2PWi3zWBz+CLKD+v5bcpZ/BS0aA==
+<<<<<<< HEAD
   /@babel/plugin-transform-react-display-name/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-react-display-name/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1862,10 +2562,17 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-SA6HEjwYFKF7WDjWcMcMGUimmw/nhNRDWxr+KaLSCrkD/LMDBvWRmHAYgE1HDeF8KUuI8OAu+RT6EOtKxSW2qA==
+<<<<<<< HEAD
   /@babel/plugin-transform-react-jsx-development/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/plugin-transform-react-jsx': 7.19.0_@babel+core@7.20.2
+=======
+  /@babel/plugin-transform-react-jsx-development/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/plugin-transform-react-jsx': 7.19.0_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -1880,7 +2587,11 @@ packages:
       '@babel/helper-module-imports': 7.18.6
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-jsx': 7.18.6_@babel+core@7.12.3
+<<<<<<< HEAD
       '@babel/types': 7.20.2
+=======
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -1888,6 +2599,7 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-UVEvX3tXie3Szm3emi1+G63jyw1w5IcMY0FSKM+CRnKRI5Mr1YbCNgsSTwoTwKphQEG9P+QqmuRFneJPZuHNhg==
+<<<<<<< HEAD
   /@babel/plugin-transform-react-jsx/7.19.0_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
@@ -1896,6 +2608,16 @@ packages:
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-jsx': 7.18.6_@babel+core@7.20.2
       '@babel/types': 7.20.2
+=======
+  /@babel/plugin-transform-react-jsx/7.19.0_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-annotate-as-pure': 7.18.6
+      '@babel/helper-module-imports': 7.18.6
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/plugin-syntax-jsx': 7.18.6_@babel+core@7.20.5
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -1915,9 +2637,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-I8VfEPg9r2TRDdvnHgPepTKvuRomzA8+u+nhY7qSI1fR2hRNebasZEETLyM5mAUr0Ku56OkXJ0I7NHJnO6cJiQ==
+<<<<<<< HEAD
   /@babel/plugin-transform-react-pure-annotations/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-react-pure-annotations/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-annotate-as-pure': 7.18.6
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
@@ -1927,7 +2655,11 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-I8VfEPg9r2TRDdvnHgPepTKvuRomzA8+u+nhY7qSI1fR2hRNebasZEETLyM5mAUr0Ku56OkXJ0I7NHJnO6cJiQ==
+<<<<<<< HEAD
   /@babel/plugin-transform-regenerator/7.18.6_@babel+core@7.12.3:
+=======
+  /@babel/plugin-transform-regenerator/7.20.5_@babel+core@7.12.3:
+>>>>>>> Add existing project files to Git
     dependencies:
       '@babel/core': 7.12.3
       '@babel/helper-plugin-utils': 7.20.2
@@ -1938,10 +2670,17 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     resolution:
+<<<<<<< HEAD
       integrity: sha512-poqRI2+qiSdeldcz4wTSTXBRryoq3Gc70ye7m7UD5Ww0nE29IXqMl6r7Nd15WBgRd74vloEMlShtH6CKxVzfmQ==
   /@babel/plugin-transform-regenerator/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+      integrity: sha512-kW/oO7HPBtntbsahzQ0qSE3tFvkFwnbozz3NWFhLGqH75vLEg+sCGngLlhVkePlCs3Jv0dBBHDzCHxNiFAQKCQ==
+  /@babel/plugin-transform-regenerator/7.20.5_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
       regenerator-transform: 0.15.1
     dev: true
@@ -1950,7 +2689,11 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     resolution:
+<<<<<<< HEAD
       integrity: sha512-poqRI2+qiSdeldcz4wTSTXBRryoq3Gc70ye7m7UD5Ww0nE29IXqMl6r7Nd15WBgRd74vloEMlShtH6CKxVzfmQ==
+=======
+      integrity: sha512-kW/oO7HPBtntbsahzQ0qSE3tFvkFwnbozz3NWFhLGqH75vLEg+sCGngLlhVkePlCs3Jv0dBBHDzCHxNiFAQKCQ==
+>>>>>>> Add existing project files to Git
   /@babel/plugin-transform-reserved-words/7.18.6_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
@@ -1962,9 +2705,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-oX/4MyMoypzHjFrT1CdivfKZ+XvIPMFXwwxHp/r0Ddy2Vuomt4HDFGmft1TAY2yiTKiNSsh3kjBAzcM8kSdsjA==
+<<<<<<< HEAD
   /@babel/plugin-transform-reserved-words/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-reserved-words/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -1973,6 +2722,7 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-oX/4MyMoypzHjFrT1CdivfKZ+XvIPMFXwwxHp/r0Ddy2Vuomt4HDFGmft1TAY2yiTKiNSsh3kjBAzcM8kSdsjA==
+<<<<<<< HEAD
   /@babel/plugin-transform-runtime/7.19.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
@@ -1981,6 +2731,16 @@ packages:
       babel-plugin-polyfill-corejs2: 0.3.3_@babel+core@7.20.2
       babel-plugin-polyfill-corejs3: 0.6.0_@babel+core@7.20.2
       babel-plugin-polyfill-regenerator: 0.4.1_@babel+core@7.20.2
+=======
+  /@babel/plugin-transform-runtime/7.19.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-module-imports': 7.18.6
+      '@babel/helper-plugin-utils': 7.20.2
+      babel-plugin-polyfill-corejs2: 0.3.3_@babel+core@7.20.5
+      babel-plugin-polyfill-corejs3: 0.6.0_@babel+core@7.20.5
+      babel-plugin-polyfill-regenerator: 0.4.1_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
       semver: 6.3.0
     dev: true
     engines:
@@ -2000,9 +2760,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-eCLXXJqv8okzg86ywZJbRn19YJHU4XUa55oz2wbHhaQVn/MM+XhukiT7SYqp/7o00dg52Rj51Ny+Ecw4oyoygw==
+<<<<<<< HEAD
   /@babel/plugin-transform-shorthand-properties/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-shorthand-properties/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -2023,9 +2789,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-RsuMk7j6n+r752EtzyScnWkQyuJdli6LdO5Klv8Yx0OfPVTcQkIUfS8clx5e9yHXzlnhOZF3CbQ8C2uP5j074w==
+<<<<<<< HEAD
   /@babel/plugin-transform-spread/7.19.0_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-spread/7.19.0_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/helper-skip-transparent-expression-wrappers': 7.20.0
     dev: true
@@ -2046,9 +2818,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-kfiDrDQ+PBsQDO85yj1icueWMfGfJFKN1KCkndygtu/C9+XUfydLC8Iv5UYJqRwy4zk8EcplRxEOeLyjq1gm6Q==
+<<<<<<< HEAD
   /@babel/plugin-transform-sticky-regex/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-sticky-regex/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -2068,9 +2846,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-S8cOWfT82gTezpYOiVaGHrCbhlHgKhQt8XH5ES46P2XWmX92yisoZywf5km75wv5sYcXDUCLMmMxOLCtthDgMA==
+<<<<<<< HEAD
   /@babel/plugin-transform-template-literals/7.18.9_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-template-literals/7.18.9_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -2090,9 +2874,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-SRfwTtF11G2aemAZWivL7PD+C9z52v9EvMqH9BuYbabyPuKUvSWks3oCg6041pT925L4zVFqaVBeECwsmlguEw==
+<<<<<<< HEAD
   /@babel/plugin-transform-typeof-symbol/7.18.9_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-typeof-symbol/7.18.9_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -2101,12 +2891,21 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-SRfwTtF11G2aemAZWivL7PD+C9z52v9EvMqH9BuYbabyPuKUvSWks3oCg6041pT925L4zVFqaVBeECwsmlguEw==
+<<<<<<< HEAD
   /@babel/plugin-transform-typescript/7.20.2_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-create-class-features-plugin': 7.20.2_@babel+core@7.20.2
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-typescript': 7.20.0_@babel+core@7.20.2
+=======
+  /@babel/plugin-transform-typescript/7.20.2_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-create-class-features-plugin': 7.20.5_@babel+core@7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/plugin-syntax-typescript': 7.20.0_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -2125,9 +2924,15 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-kKAdAI+YzPgGY/ftStBFXTI1LZFju38rYThnfMykS+IXy8BVx+res7s2fxf1l8I35DV2T97ezo6+SGrXz6B3iQ==
+<<<<<<< HEAD
   /@babel/plugin-transform-unicode-escapes/7.18.10_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /@babel/plugin-transform-unicode-escapes/7.18.10_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -2139,7 +2944,11 @@ packages:
   /@babel/plugin-transform-unicode-regex/7.18.6_@babel+core@7.12.3:
     dependencies:
       '@babel/core': 7.12.3
+<<<<<<< HEAD
       '@babel/helper-create-regexp-features-plugin': 7.19.0_@babel+core@7.12.3
+=======
+      '@babel/helper-create-regexp-features-plugin': 7.20.5_@babel+core@7.12.3
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -2148,10 +2957,17 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-gE7A6Lt7YLnNOL3Pb9BNeZvi+d8l7tcRrG4+pwJjK9hD2xX4mEvjlQW60G9EEmfXVYRPv9VRQcyegIVHCql/AA==
+<<<<<<< HEAD
   /@babel/plugin-transform-unicode-regex/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-create-regexp-features-plugin': 7.19.0_@babel+core@7.20.2
+=======
+  /@babel/plugin-transform-unicode-regex/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-create-regexp-features-plugin': 7.20.5_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
     engines:
@@ -2162,7 +2978,11 @@ packages:
       integrity: sha512-gE7A6Lt7YLnNOL3Pb9BNeZvi+d8l7tcRrG4+pwJjK9hD2xX4mEvjlQW60G9EEmfXVYRPv9VRQcyegIVHCql/AA==
   /@babel/preset-env/7.20.2_@babel+core@7.12.3:
     dependencies:
+<<<<<<< HEAD
       '@babel/compat-data': 7.20.1
+=======
+      '@babel/compat-data': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/core': 7.12.3
       '@babel/helper-compilation-targets': 7.20.0_@babel+core@7.12.3
       '@babel/helper-plugin-utils': 7.20.2
@@ -2182,7 +3002,11 @@ packages:
       '@babel/plugin-proposal-optional-catch-binding': 7.18.6_@babel+core@7.12.3
       '@babel/plugin-proposal-optional-chaining': 7.18.9_@babel+core@7.12.3
       '@babel/plugin-proposal-private-methods': 7.18.6_@babel+core@7.12.3
+<<<<<<< HEAD
       '@babel/plugin-proposal-private-property-in-object': 7.18.6_@babel+core@7.12.3
+=======
+      '@babel/plugin-proposal-private-property-in-object': 7.20.5_@babel+core@7.12.3
+>>>>>>> Add existing project files to Git
       '@babel/plugin-proposal-unicode-property-regex': 7.18.6_@babel+core@7.12.3
       '@babel/plugin-syntax-async-generators': 7.8.4_@babel+core@7.12.3
       '@babel/plugin-syntax-class-properties': 7.12.13_@babel+core@7.12.3
@@ -2202,7 +3026,11 @@ packages:
       '@babel/plugin-transform-arrow-functions': 7.18.6_@babel+core@7.12.3
       '@babel/plugin-transform-async-to-generator': 7.18.6_@babel+core@7.12.3
       '@babel/plugin-transform-block-scoped-functions': 7.18.6_@babel+core@7.12.3
+<<<<<<< HEAD
       '@babel/plugin-transform-block-scoping': 7.20.2_@babel+core@7.12.3
+=======
+      '@babel/plugin-transform-block-scoping': 7.20.5_@babel+core@7.12.3
+>>>>>>> Add existing project files to Git
       '@babel/plugin-transform-classes': 7.20.2_@babel+core@7.12.3
       '@babel/plugin-transform-computed-properties': 7.18.9_@babel+core@7.12.3
       '@babel/plugin-transform-destructuring': 7.20.2_@babel+core@7.12.3
@@ -2217,12 +3045,21 @@ packages:
       '@babel/plugin-transform-modules-commonjs': 7.19.6_@babel+core@7.12.3
       '@babel/plugin-transform-modules-systemjs': 7.19.6_@babel+core@7.12.3
       '@babel/plugin-transform-modules-umd': 7.18.6_@babel+core@7.12.3
+<<<<<<< HEAD
       '@babel/plugin-transform-named-capturing-groups-regex': 7.19.1_@babel+core@7.12.3
       '@babel/plugin-transform-new-target': 7.18.6_@babel+core@7.12.3
       '@babel/plugin-transform-object-super': 7.18.6_@babel+core@7.12.3
       '@babel/plugin-transform-parameters': 7.20.3_@babel+core@7.12.3
       '@babel/plugin-transform-property-literals': 7.18.6_@babel+core@7.12.3
       '@babel/plugin-transform-regenerator': 7.18.6_@babel+core@7.12.3
+=======
+      '@babel/plugin-transform-named-capturing-groups-regex': 7.20.5_@babel+core@7.12.3
+      '@babel/plugin-transform-new-target': 7.18.6_@babel+core@7.12.3
+      '@babel/plugin-transform-object-super': 7.18.6_@babel+core@7.12.3
+      '@babel/plugin-transform-parameters': 7.20.5_@babel+core@7.12.3
+      '@babel/plugin-transform-property-literals': 7.18.6_@babel+core@7.12.3
+      '@babel/plugin-transform-regenerator': 7.20.5_@babel+core@7.12.3
+>>>>>>> Add existing project files to Git
       '@babel/plugin-transform-reserved-words': 7.18.6_@babel+core@7.12.3
       '@babel/plugin-transform-shorthand-properties': 7.18.6_@babel+core@7.12.3
       '@babel/plugin-transform-spread': 7.19.0_@babel+core@7.12.3
@@ -2232,7 +3069,11 @@ packages:
       '@babel/plugin-transform-unicode-escapes': 7.18.10_@babel+core@7.12.3
       '@babel/plugin-transform-unicode-regex': 7.18.6_@babel+core@7.12.3
       '@babel/preset-modules': 0.1.5_@babel+core@7.12.3
+<<<<<<< HEAD
       '@babel/types': 7.20.2
+=======
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
       babel-plugin-polyfill-corejs2: 0.3.3_@babel+core@7.12.3
       babel-plugin-polyfill-corejs3: 0.6.0_@babel+core@7.12.3
       babel-plugin-polyfill-regenerator: 0.4.1_@babel+core@7.12.3
@@ -2245,6 +3086,7 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-1G0efQEWR1EHkKvKHqbG+IN/QdgwfByUpM5V5QroDzGV2t3S/WXNQd693cHiHTlCFMpr9B6FkPFXDA2lQcKoDg==
+<<<<<<< HEAD
   /@babel/preset-env/7.20.2_@babel+core@7.20.2:
     dependencies:
       '@babel/compat-data': 7.20.1
@@ -2321,6 +3163,84 @@ packages:
       babel-plugin-polyfill-corejs2: 0.3.3_@babel+core@7.20.2
       babel-plugin-polyfill-corejs3: 0.6.0_@babel+core@7.20.2
       babel-plugin-polyfill-regenerator: 0.4.1_@babel+core@7.20.2
+=======
+  /@babel/preset-env/7.20.2_@babel+core@7.20.5:
+    dependencies:
+      '@babel/compat-data': 7.20.5
+      '@babel/core': 7.20.5
+      '@babel/helper-compilation-targets': 7.20.0_@babel+core@7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/helper-validator-option': 7.18.6
+      '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining': 7.18.9_@babel+core@7.20.5
+      '@babel/plugin-proposal-async-generator-functions': 7.20.1_@babel+core@7.20.5
+      '@babel/plugin-proposal-class-properties': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-proposal-class-static-block': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-proposal-dynamic-import': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-proposal-export-namespace-from': 7.18.9_@babel+core@7.20.5
+      '@babel/plugin-proposal-json-strings': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-proposal-logical-assignment-operators': 7.18.9_@babel+core@7.20.5
+      '@babel/plugin-proposal-nullish-coalescing-operator': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-proposal-numeric-separator': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-proposal-object-rest-spread': 7.20.2_@babel+core@7.20.5
+      '@babel/plugin-proposal-optional-catch-binding': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-proposal-optional-chaining': 7.18.9_@babel+core@7.20.5
+      '@babel/plugin-proposal-private-methods': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-proposal-private-property-in-object': 7.20.5_@babel+core@7.20.5
+      '@babel/plugin-proposal-unicode-property-regex': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-syntax-async-generators': 7.8.4_@babel+core@7.20.5
+      '@babel/plugin-syntax-class-properties': 7.12.13_@babel+core@7.20.5
+      '@babel/plugin-syntax-class-static-block': 7.14.5_@babel+core@7.20.5
+      '@babel/plugin-syntax-dynamic-import': 7.8.3_@babel+core@7.20.5
+      '@babel/plugin-syntax-export-namespace-from': 7.8.3_@babel+core@7.20.5
+      '@babel/plugin-syntax-import-assertions': 7.20.0_@babel+core@7.20.5
+      '@babel/plugin-syntax-json-strings': 7.8.3_@babel+core@7.20.5
+      '@babel/plugin-syntax-logical-assignment-operators': 7.10.4_@babel+core@7.20.5
+      '@babel/plugin-syntax-nullish-coalescing-operator': 7.8.3_@babel+core@7.20.5
+      '@babel/plugin-syntax-numeric-separator': 7.10.4_@babel+core@7.20.5
+      '@babel/plugin-syntax-object-rest-spread': 7.8.3_@babel+core@7.20.5
+      '@babel/plugin-syntax-optional-catch-binding': 7.8.3_@babel+core@7.20.5
+      '@babel/plugin-syntax-optional-chaining': 7.8.3_@babel+core@7.20.5
+      '@babel/plugin-syntax-private-property-in-object': 7.14.5_@babel+core@7.20.5
+      '@babel/plugin-syntax-top-level-await': 7.14.5_@babel+core@7.20.5
+      '@babel/plugin-transform-arrow-functions': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-async-to-generator': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-block-scoped-functions': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-block-scoping': 7.20.5_@babel+core@7.20.5
+      '@babel/plugin-transform-classes': 7.20.2_@babel+core@7.20.5
+      '@babel/plugin-transform-computed-properties': 7.18.9_@babel+core@7.20.5
+      '@babel/plugin-transform-destructuring': 7.20.2_@babel+core@7.20.5
+      '@babel/plugin-transform-dotall-regex': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-duplicate-keys': 7.18.9_@babel+core@7.20.5
+      '@babel/plugin-transform-exponentiation-operator': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-for-of': 7.18.8_@babel+core@7.20.5
+      '@babel/plugin-transform-function-name': 7.18.9_@babel+core@7.20.5
+      '@babel/plugin-transform-literals': 7.18.9_@babel+core@7.20.5
+      '@babel/plugin-transform-member-expression-literals': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-modules-amd': 7.19.6_@babel+core@7.20.5
+      '@babel/plugin-transform-modules-commonjs': 7.19.6_@babel+core@7.20.5
+      '@babel/plugin-transform-modules-systemjs': 7.19.6_@babel+core@7.20.5
+      '@babel/plugin-transform-modules-umd': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-named-capturing-groups-regex': 7.20.5_@babel+core@7.20.5
+      '@babel/plugin-transform-new-target': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-object-super': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-parameters': 7.20.5_@babel+core@7.20.5
+      '@babel/plugin-transform-property-literals': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-regenerator': 7.20.5_@babel+core@7.20.5
+      '@babel/plugin-transform-reserved-words': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-shorthand-properties': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-spread': 7.19.0_@babel+core@7.20.5
+      '@babel/plugin-transform-sticky-regex': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-template-literals': 7.18.9_@babel+core@7.20.5
+      '@babel/plugin-transform-typeof-symbol': 7.18.9_@babel+core@7.20.5
+      '@babel/plugin-transform-unicode-escapes': 7.18.10_@babel+core@7.20.5
+      '@babel/plugin-transform-unicode-regex': 7.18.6_@babel+core@7.20.5
+      '@babel/preset-modules': 0.1.5_@babel+core@7.20.5
+      '@babel/types': 7.20.5
+      babel-plugin-polyfill-corejs2: 0.3.3_@babel+core@7.20.5
+      babel-plugin-polyfill-corejs3: 0.6.0_@babel+core@7.20.5
+      babel-plugin-polyfill-regenerator: 0.4.1_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
       core-js-compat: 3.26.1
       semver: 6.3.0
     dev: true
@@ -2336,13 +3256,18 @@ packages:
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-proposal-unicode-property-regex': 7.18.6_@babel+core@7.12.3
       '@babel/plugin-transform-dotall-regex': 7.18.6_@babel+core@7.12.3
+<<<<<<< HEAD
       '@babel/types': 7.20.2
+=======
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
       esutils: 2.0.3
     dev: true
     peerDependencies:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-A57th6YRG7oR3cq/yt/Y84MvGgE0eJG2F1JLhKuyG+jFxEgrd/HAMJatiFtmOiZurz+0DkrvbheCLaV5f2JfjA==
+<<<<<<< HEAD
   /@babel/preset-modules/0.1.5_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
@@ -2350,6 +3275,15 @@ packages:
       '@babel/plugin-proposal-unicode-property-regex': 7.18.6_@babel+core@7.20.2
       '@babel/plugin-transform-dotall-regex': 7.18.6_@babel+core@7.20.2
       '@babel/types': 7.20.2
+=======
+  /@babel/preset-modules/0.1.5_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/plugin-proposal-unicode-property-regex': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-dotall-regex': 7.18.6_@babel+core@7.20.5
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
       esutils: 2.0.3
     dev: true
     peerDependencies:
@@ -2372,6 +3306,7 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-zXr6atUmyYdiWRVLOZahakYmOBHtWc2WGCkP8PYTgZi0iJXDY2CN180TdrIW4OGOAdLc7TifzDIvtx6izaRIzg==
+<<<<<<< HEAD
   /@babel/preset-react/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
@@ -2381,6 +3316,17 @@ packages:
       '@babel/plugin-transform-react-jsx': 7.19.0_@babel+core@7.20.2
       '@babel/plugin-transform-react-jsx-development': 7.18.6_@babel+core@7.20.2
       '@babel/plugin-transform-react-pure-annotations': 7.18.6_@babel+core@7.20.2
+=======
+  /@babel/preset-react/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/helper-validator-option': 7.18.6
+      '@babel/plugin-transform-react-display-name': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-react-jsx': 7.19.0_@babel+core@7.20.5
+      '@babel/plugin-transform-react-jsx-development': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-react-pure-annotations': 7.18.6_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -2388,12 +3334,21 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-zXr6atUmyYdiWRVLOZahakYmOBHtWc2WGCkP8PYTgZi0iJXDY2CN180TdrIW4OGOAdLc7TifzDIvtx6izaRIzg==
+<<<<<<< HEAD
   /@babel/preset-typescript/7.18.6_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/helper-validator-option': 7.18.6
       '@babel/plugin-transform-typescript': 7.20.2_@babel+core@7.20.2
+=======
+  /@babel/preset-typescript/7.18.6_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/helper-validator-option': 7.18.6
+      '@babel/plugin-transform-typescript': 7.20.2_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
@@ -2401,49 +3356,84 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-s9ik86kXBAnD760aybBucdpnLsAt0jK1xqJn2juOn9lkOvSHV60os5hxoVJsPzMQxvnUJFAlkont2DvvaYEBtQ==
+<<<<<<< HEAD
   /@babel/runtime-corejs3/7.20.1:
+=======
+  /@babel/runtime-corejs3/7.20.6:
+>>>>>>> Add existing project files to Git
     dependencies:
       core-js-pure: 3.26.1
       regenerator-runtime: 0.13.11
     engines:
       node: '>=6.9.0'
     resolution:
+<<<<<<< HEAD
       integrity: sha512-CGulbEDcg/ND1Im7fUNRZdGXmX2MTWVVZacQi/6DiKE5HNwZ3aVTm5PV4lO8HHz0B2h8WQyvKKjbX5XgTtydsg==
   /@babel/runtime/7.20.1:
+=======
+      integrity: sha512-tqeujPiuEfcH067mx+7otTQWROVMKHXEaOQcAeNV5dDdbPWvPcFA8/W9LXw2NfjNmOetqLl03dfnG2WALPlsRQ==
+  /@babel/runtime/7.20.6:
+>>>>>>> Add existing project files to Git
     dependencies:
       regenerator-runtime: 0.13.11
     engines:
       node: '>=6.9.0'
     resolution:
+<<<<<<< HEAD
       integrity: sha512-mrzLkl6U9YLF8qpqI7TB82PESyEGjm/0Ly91jG575eVxMMlb8fYfOXFZIJ8XfLrJZQbm7dlKry2bJmXBUEkdFg==
   /@babel/template/7.18.10:
     dependencies:
       '@babel/code-frame': 7.18.6
       '@babel/parser': 7.20.3
       '@babel/types': 7.20.2
+=======
+      integrity: sha512-Q+8MqP7TiHMWzSfwiJwXCjyf4GYA4Dgw3emg/7xmwsdLJOZUp+nMqcOwOzzYheuM1rhDu8FSj2l0aoMygEuXuA==
+  /@babel/template/7.18.10:
+    dependencies:
+      '@babel/code-frame': 7.18.6
+      '@babel/parser': 7.20.5
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=6.9.0'
     resolution:
       integrity: sha512-TI+rCtooWHr3QJ27kJxfjutghu44DLnasDMwpDqCXVTal9RLp3RSYNh4NdBrRP2cQAoG9A8juOQl6P6oZG4JxA==
+<<<<<<< HEAD
   /@babel/traverse/7.20.1:
     dependencies:
       '@babel/code-frame': 7.18.6
       '@babel/generator': 7.20.4
+=======
+  /@babel/traverse/7.20.5:
+    dependencies:
+      '@babel/code-frame': 7.18.6
+      '@babel/generator': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-environment-visitor': 7.18.9
       '@babel/helper-function-name': 7.19.0
       '@babel/helper-hoist-variables': 7.18.6
       '@babel/helper-split-export-declaration': 7.18.6
+<<<<<<< HEAD
       '@babel/parser': 7.20.3
       '@babel/types': 7.20.2
+=======
+      '@babel/parser': 7.20.5
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
       debug: 4.3.4
       globals: 11.12.0
     dev: true
     engines:
       node: '>=6.9.0'
     resolution:
+<<<<<<< HEAD
       integrity: sha512-d3tN8fkVJwFLkHkBN479SOsw4DMZnz8cdbL/gvuDuzy3TS6Nfw80HuQqhw1pITbIruHyh7d1fMA47kWzmcUEGA==
   /@babel/types/7.20.2:
+=======
+      integrity: sha512-WM5ZNN3JITQIq9tFZaw1ojLU3WgWdtkxnhM1AegMS+PvHjkM5IXjmYEGY7yukz5XS4sJyEf2VzWjI8uAavhxBQ==
+  /@babel/types/7.20.5:
+>>>>>>> Add existing project files to Git
     dependencies:
       '@babel/helper-string-parser': 7.19.4
       '@babel/helper-validator-identifier': 7.19.1
@@ -2452,7 +3442,11 @@ packages:
     engines:
       node: '>=6.9.0'
     resolution:
+<<<<<<< HEAD
       integrity: sha512-FnnvsNWgZCr232sqtXggapvlkk/tuwR/qhGzcmxI0GXLCjmPYQPzio2FbdlWuY6y1sHFfQKk+rRbUZ9VStQMog==
+=======
+      integrity: sha512-c9fst/h2/dcF7H+MJKZ2T0KjEQ8hY/BNnDk/H3XY8C4Aw/eWQXWn/lWntHF9ooUBnGmEvbfGrTgLWc+um0YDUg==
+>>>>>>> Add existing project files to Git
   /@bcoe/v8-coverage/0.2.3:
     dev: true
     resolution:
@@ -2564,7 +3558,11 @@ packages:
   /@jest/console/26.6.2:
     dependencies:
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
       chalk: 4.1.0
       jest-message-util: 26.6.2
       jest-util: 26.6.2
@@ -2581,7 +3579,11 @@ packages:
       '@jest/test-result': 26.6.2
       '@jest/transform': 26.6.2
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
       ansi-escapes: 4.3.2
       chalk: 4.1.0
       exit: 0.1.2
@@ -2613,7 +3615,11 @@ packages:
     dependencies:
       '@jest/fake-timers': 26.6.2
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
       jest-mock: 26.6.2
     dev: true
     engines:
@@ -2632,7 +3638,11 @@ packages:
     dependencies:
       '@jest/types': 26.6.2
       '@sinonjs/fake-timers': 6.0.1
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
       jest-message-util: 26.6.2
       jest-mock: 26.6.2
       jest-util: 26.6.2
@@ -2727,7 +3737,11 @@ packages:
       integrity: sha512-YHlVIjP5nfEyjlrSr8t/YdNfU/1XEt7c5b4OxcXCjyRhjzLYu/rO69/WHPuYcbCWkz8kAeZVZp2N2+IOLLEPGw==
   /@jest/transform/26.6.2:
     dependencies:
+<<<<<<< HEAD
       '@babel/core': 7.20.2
+=======
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@jest/types': 26.6.2
       babel-plugin-istanbul: 6.1.1
       chalk: 4.1.0
@@ -2751,7 +3765,11 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
       '@types/yargs': 15.0.14
       chalk: 4.1.0
     engines:
@@ -2763,8 +3781,13 @@ packages:
       '@jest/schemas': 29.0.0
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
+<<<<<<< HEAD
       '@types/node': 18.11.9
       '@types/yargs': 17.0.13
+=======
+      '@types/node': 18.11.10
+      '@types/yargs': 17.0.15
+>>>>>>> Add existing project files to Git
       chalk: 4.1.0
     dev: false
     engines:
@@ -2854,7 +3877,11 @@ packages:
   /@nodelib/fs.walk/1.2.8:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
+<<<<<<< HEAD
       fastq: 1.13.0
+=======
+      fastq: 1.14.0
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>= 8'
@@ -2961,15 +3988,26 @@ packages:
     dev: false
     resolution:
       integrity: sha512-1P1OROm/rdubP5aFDSZQILU0vrLCJ4fvHt6EoqHEM+2D/G5MK3bIaymUKLit8Js9gbns5UyJnkP/TZROLw4tUA==
+<<<<<<< HEAD
   /@sinonjs/commons/1.8.5:
+=======
+  /@sinonjs/commons/1.8.6:
+>>>>>>> Add existing project files to Git
     dependencies:
       type-detect: 4.0.8
     dev: true
     resolution:
+<<<<<<< HEAD
       integrity: sha512-rTpCA0wG1wUxglBSFdMMY0oTrKYvgf4fNgv/sXbfCVAdf+FnPBdKJR/7XbpTCwbCrvCbdPYnlWaUUYz4V2fPDA==
   /@sinonjs/fake-timers/6.0.1:
     dependencies:
       '@sinonjs/commons': 1.8.5
+=======
+      integrity: sha512-Ky+XkAkqPZSm3NLBeUng77EBQl3cmeJhITaGHdYH8kjVB+aun3S4XBRti2zt17mtt0mIUDiNxYeoJm6drVvBJQ==
+  /@sinonjs/fake-timers/6.0.1:
+    dependencies:
+      '@sinonjs/commons': 1.8.6
+>>>>>>> Add existing project files to Git
     dev: true
     resolution:
       integrity: sha512-MZPUxrmFubI36XS1DI3qmI0YdN1gks62JtFZvxR67ljjSNCeK6U08Zx4msEWOXuofgqUt6zPHSi1H9fbjR/NRA==
@@ -3055,7 +4093,11 @@ packages:
       integrity: sha512-q52VOcsJPvV3jO1wkPtzTuKlvX7Y3xIcWRpCMtBF3MrteZJtBfQw/+u0B1BHy5ColpQc1/YVTrPEtSYIMNZlrQ==
   /@svgr/hast-util-to-babel-ast/5.5.0:
     dependencies:
+<<<<<<< HEAD
       '@babel/types': 7.20.2
+=======
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=10'
@@ -3063,7 +4105,11 @@ packages:
       integrity: sha512-cAaR/CAiZRB8GP32N+1jocovUtvlj0+e65TB50/6Lcime+EA49m/8l+P2ko+XPJ4dw3xaPS3jOL4F2X4KWxoeQ==
   /@svgr/plugin-jsx/5.5.0:
     dependencies:
+<<<<<<< HEAD
       '@babel/core': 7.20.2
+=======
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@svgr/babel-preset': 5.5.0
       '@svgr/hast-util-to-babel-ast': 5.5.0
       svg-parser: 2.0.4
@@ -3100,7 +4146,11 @@ packages:
   /@testing-library/dom/7.31.2:
     dependencies:
       '@babel/code-frame': 7.18.6
+<<<<<<< HEAD
       '@babel/runtime': 7.20.1
+=======
+      '@babel/runtime': 7.20.6
+>>>>>>> Add existing project files to Git
       '@types/aria-query': 4.2.2
       aria-query: 4.2.2
       chalk: 4.1.0
@@ -3114,7 +4164,11 @@ packages:
       integrity: sha512-3UqjCpey6HiTZT92vODYLPxTBWlM8ZOOjr3LX5F37/VRipW2M1kX6I/Cm4VXzteZqfGfagg8yXywpcOgQBlNsQ==
   /@testing-library/jest-dom/5.11.9:
     dependencies:
+<<<<<<< HEAD
       '@babel/runtime': 7.20.1
+=======
+      '@babel/runtime': 7.20.6
+>>>>>>> Add existing project files to Git
       '@types/testing-library__jest-dom': 5.14.5
       aria-query: 4.2.2
       chalk: 3.0.0
@@ -3131,7 +4185,11 @@ packages:
       integrity: sha512-Mn2gnA9d1wStlAIT2NU8J15LNob0YFBVjs2aEQ3j8rsfRQo+lAs7/ui1i2TGaJjapLmuNPLTsrm+nPjmZDwpcQ==
   /@testing-library/react/11.2.5_react-dom@17.0.1+react@17.0.1:
     dependencies:
+<<<<<<< HEAD
       '@babel/runtime': 7.20.1
+=======
+      '@babel/runtime': 7.20.6
+>>>>>>> Add existing project files to Git
       '@testing-library/dom': 7.31.2
       react: 17.0.1
       react-dom: 17.0.1_react@17.0.1
@@ -3145,7 +4203,11 @@ packages:
       integrity: sha512-yEx7oIa/UWLe2F2dqK0FtMF9sJWNXD+2PPtp39BvE0Kh9MJ9Kl0HrZAgEuhUJR+Lx8Di6Xz+rKwSdEPY2UV8ZQ==
   /@testing-library/user-event/12.6.2:
     dependencies:
+<<<<<<< HEAD
       '@babel/runtime': 7.20.1
+=======
+      '@babel/runtime': 7.20.6
+>>>>>>> Add existing project files to Git
     dev: false
     engines:
       node: '>=10'
@@ -3166,22 +4228,35 @@ packages:
       integrity: sha512-HnYpAE1Y6kRyKM/XkEuiRQhTHvkzMBurTHnpFLYLBGPIylZNPs9jJcuOOYWxPLJCSEtmZT0Y8rHDokKN7rRTig==
   /@types/babel__core/7.1.20:
     dependencies:
+<<<<<<< HEAD
       '@babel/parser': 7.20.3
       '@babel/types': 7.20.2
       '@types/babel__generator': 7.6.4
       '@types/babel__template': 7.4.1
       '@types/babel__traverse': 7.18.2
+=======
+      '@babel/parser': 7.20.5
+      '@babel/types': 7.20.5
+      '@types/babel__generator': 7.6.4
+      '@types/babel__template': 7.4.1
+      '@types/babel__traverse': 7.18.3
+>>>>>>> Add existing project files to Git
     dev: true
     resolution:
       integrity: sha512-PVb6Bg2QuscZ30FvOU7z4guG6c926D9YRvOxEaelzndpMsvP+YM74Q/dAFASpg2l6+XLalxSGxcq/lrgYWZtyQ==
   /@types/babel__generator/7.6.4:
     dependencies:
+<<<<<<< HEAD
       '@babel/types': 7.20.2
+=======
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     resolution:
       integrity: sha512-tFkciB9j2K755yrTALxD44McOrk+gfpIpvC3sxHjRawj6PfnQxrse4Clq5y/Rq+G3mrBurMax/lG8Qn2t9mSsg==
   /@types/babel__template/7.4.1:
     dependencies:
+<<<<<<< HEAD
       '@babel/parser': 7.20.3
       '@babel/types': 7.20.2
     dev: true
@@ -3193,6 +4268,19 @@ packages:
     dev: true
     resolution:
       integrity: sha512-FcFaxOr2V5KZCviw1TnutEMVUVsGt4D2hP1TAfXZAMKuHYW3xQhe3jTxNPWutgCJ3/X1c5yX8ZoGVEItxKbwBg==
+=======
+      '@babel/parser': 7.20.5
+      '@babel/types': 7.20.5
+    dev: true
+    resolution:
+      integrity: sha512-azBFKemX6kMg5Io+/rdGT0dkGreboUVR0Cdm3fz9QJWpaQGJRQXl7C+6hOTCZcMll7KFyEQpgbYI2lHdsS4U7g==
+  /@types/babel__traverse/7.18.3:
+    dependencies:
+      '@babel/types': 7.20.5
+    dev: true
+    resolution:
+      integrity: sha512-1kbcJ40lLB7MHsj39U4Sh1uTd2E7rLEa79kmDpI6cy+XiXsteB3POdQomoq4FxszMrO3ZYchkhYJw7A2862b3w==
+>>>>>>> Add existing project files to Git
   /@types/cookie/0.4.1:
     dev: false
     resolution:
@@ -3215,13 +4303,21 @@ packages:
   /@types/glob/7.2.0:
     dependencies:
       '@types/minimatch': 5.1.2
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
     dev: true
     resolution:
       integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==
   /@types/graceful-fs/4.1.5:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
     dev: true
     resolution:
       integrity: sha512-anKkLmZZ+xm4p8JWBf4hElkM4XR+EZeA2M9BAkkTldmcyDY4mbdIJnRghDJH3Ov5ooY7/UAoENtmdMSkaAd7Cw==
@@ -3272,9 +4368,15 @@ packages:
     dev: true
     resolution:
       integrity: sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==
+<<<<<<< HEAD
   /@types/node/18.11.9:
     resolution:
       integrity: sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==
+=======
+  /@types/node/18.11.10:
+    resolution:
+      integrity: sha512-juG3RWMBOqcOuXC643OAdSA525V44cVgGV6dUDuiFtss+8Fk5x1hI93Rsld43VeJVIeqlP9I7Fn9/qaVqoEAuQ==
+>>>>>>> Add existing project files to Git
   /@types/normalize-package-data/2.4.1:
     dev: true
     resolution:
@@ -3293,13 +4395,21 @@ packages:
       integrity: sha512-L28j2FcJfSZOnL1WBjDYp2vUHCeIFlyYI/53EwD/rKUBQ7MtUUfbQWiyKJGpcnv4/WgrhWsFKrcPstcAt/J0tQ==
   /@types/resolve/0.0.8:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
     dev: true
     resolution:
       integrity: sha512-auApPaJf3NPfe18hSoJkp8EbZzer2ISk7o8mCC3M9he/a04+gbMF97NkpD2S8riMGvm4BMRI59/SZQSaLTKpsQ==
   /@types/set-cookie-parser/2.4.2:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
     dev: false
     resolution:
       integrity: sha512-fBZgytwhYAUkj/jC/FAV4RQ5EerRup1YQsXQCh8rZfiHkc4UahC192oH0smGwsXol3cL3A5oETuAHeQHmhXM4w==
@@ -3322,7 +4432,11 @@ packages:
       integrity: sha512-SBwbxYoyPIvxHbeHxTZX2Pe/74F/tX2/D3mMvzabdeJ25bBojfW0TyB8BHrbq/9zaaKICJZjLP+8r6AeZMFCuQ==
   /@types/through/0.0.30:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
     dev: false
     resolution:
       integrity: sha512-FvnCJljyxhPM3gkRgWmxmDZyAQSiBQQWLI0A0VFL0K7W1oRUrPJSqNO0NvTnLkBcotdlp3lKvaT0JrnyRDkzOg==
@@ -3334,7 +4448,11 @@ packages:
       integrity: sha512-GkewRA4i5oXacU/n4MA9+bLgt5/L3F1mKrYvFGm7r2ouLXhRKjuWwo9XHNnbx6WF3vlGW21S3fCvgqxvxXXc5g==
   /@types/webpack-sources/3.2.0:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
       '@types/source-list-map': 0.1.2
       source-map: 0.7.4
     dev: true
@@ -3342,11 +4460,19 @@ packages:
       integrity: sha512-Ft7YH3lEVRQ6ls8k4Ff1oB4jN6oy/XmU6tQISKdhfh+1mR+viZFphS6WL0IrtDOzvefmJg5a0s7ZQoRXwqTEFg==
   /@types/webpack/4.41.33:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 18.11.9
       '@types/tapable': 1.0.8
       '@types/uglify-js': 3.17.1
       '@types/webpack-sources': 3.2.0
       anymatch: 3.1.2
+=======
+      '@types/node': 18.11.10
+      '@types/tapable': 1.0.8
+      '@types/uglify-js': 3.17.1
+      '@types/webpack-sources': 3.2.0
+      anymatch: 3.1.3
+>>>>>>> Add existing project files to Git
       source-map: 0.6.1
     dev: true
     resolution:
@@ -3359,12 +4485,20 @@ packages:
       '@types/yargs-parser': 21.0.0
     resolution:
       integrity: sha512-yEJzHoxf6SyQGhBhIYGXQDSCkJjB6HohDShto7m8vaKg9Yp0Yn8+71J9eakh2bnPg6BfsH9PRMhiRTZnd4eXGQ==
+<<<<<<< HEAD
   /@types/yargs/17.0.13:
+=======
+  /@types/yargs/17.0.15:
+>>>>>>> Add existing project files to Git
     dependencies:
       '@types/yargs-parser': 21.0.0
     dev: false
     resolution:
+<<<<<<< HEAD
       integrity: sha512-9sWaruZk2JGxIQU+IhI1fhPYRcQ0UuTNuKuCW9bR5fp7qi2Llf7WDzNa17Cy7TKnh3cdxDOiyTu6gaLS0eDatg==
+=======
+      integrity: sha512-ZHc4W2dnEQPfhn06TBEdWaiUHEZAocYaiVMfwOipY5jcJt/251wVrKCBWBetGZWO5CF8tdb7L3DmdxVlZ2BOIg==
+>>>>>>> Add existing project files to Git
   /@typescript-eslint/eslint-plugin/4.33.0_2951ba233cd46bb4e0f2f0a3f7fe108e:
     dependencies:
       '@typescript-eslint/experimental-utils': 4.33.0_eslint@7.32.0
@@ -3373,7 +4507,11 @@ packages:
       debug: 4.3.4
       eslint: 7.32.0
       functional-red-black-tree: 1.0.1
+<<<<<<< HEAD
       ignore: 5.2.0
+=======
+      ignore: 5.2.1
+>>>>>>> Add existing project files to Git
       regexpp: 3.2.0
       semver: 7.3.8
       tsutils: 3.21.0
@@ -3845,14 +4983,22 @@ packages:
     dev: true
     resolution:
       integrity: sha512-5teOsQWABXHHBFP9y3skS5P3d/WfWXpv3FUpy+LorMrNYaT9pI4oLMQX7jzQ2KklNpGpWHzdCXTDT2Y3XGlZBw==
+<<<<<<< HEAD
   /anymatch/3.1.2:
+=======
+  /anymatch/3.1.3:
+>>>>>>> Add existing project files to Git
     dependencies:
       normalize-path: 3.0.0
       picomatch: 2.3.1
     engines:
       node: '>= 8'
     resolution:
+<<<<<<< HEAD
       integrity: sha512-P43ePfOAIupkguHUycrc4qJ9kz8ZiuOUijaETwX7THt0Y/GNK7v0aa8rY816xWjZ7rJdA5XdMcpVFTKMq+RvWg==
+=======
+      integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==
+>>>>>>> Add existing project files to Git
   /aproba/1.2.0:
     dev: true
     resolution:
@@ -3865,8 +5011,13 @@ packages:
       integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==
   /aria-query/4.2.2:
     dependencies:
+<<<<<<< HEAD
       '@babel/runtime': 7.20.1
       '@babel/runtime-corejs3': 7.20.1
+=======
+      '@babel/runtime': 7.20.6
+      '@babel/runtime-corejs3': 7.20.6
+>>>>>>> Add existing project files to Git
     engines:
       node: '>=6.0'
     resolution:
@@ -4058,7 +5209,11 @@ packages:
   /autoprefixer/9.8.8:
     dependencies:
       browserslist: 4.21.4
+<<<<<<< HEAD
       caniuse-lite: 1.0.30001431
+=======
+      caniuse-lite: 1.0.30001436
+>>>>>>> Add existing project files to Git
       normalize-range: 0.1.2
       num2fraction: 1.2.2
       picocolors: 0.2.1
@@ -4081,9 +5236,15 @@ packages:
   /babel-eslint/10.1.0_eslint@7.32.0:
     dependencies:
       '@babel/code-frame': 7.18.6
+<<<<<<< HEAD
       '@babel/parser': 7.20.3
       '@babel/traverse': 7.20.1
       '@babel/types': 7.20.2
+=======
+      '@babel/parser': 7.20.5
+      '@babel/traverse': 7.20.5
+      '@babel/types': 7.20.5
+>>>>>>> Add existing project files to Git
       eslint: 7.32.0
       eslint-visitor-keys: 1.3.0
       resolve: 1.18.1
@@ -4121,14 +5282,24 @@ packages:
       '@babel/core': ^7.0.0
     resolution:
       integrity: sha512-pl4Q+GAVOHwvjrck6jKjvmGhnO3jHX/xuB9d27f+EJZ/6k+6nMuPjorrYp7s++bKKdANwzElBWnLWaObvTnaZA==
+<<<<<<< HEAD
   /babel-jest/26.6.3_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /babel-jest/26.6.3_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@jest/transform': 26.6.2
       '@jest/types': 26.6.2
       '@types/babel__core': 7.1.20
       babel-plugin-istanbul: 6.1.1
+<<<<<<< HEAD
       babel-preset-jest: 26.6.2_@babel+core@7.20.2
+=======
+      babel-preset-jest: 26.6.2_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
       chalk: 4.1.0
       graceful-fs: 4.2.10
       slash: 3.0.0
@@ -4171,9 +5342,15 @@ packages:
   /babel-plugin-jest-hoist/26.6.2:
     dependencies:
       '@babel/template': 7.18.10
+<<<<<<< HEAD
       '@babel/types': 7.20.2
       '@types/babel__core': 7.1.20
       '@types/babel__traverse': 7.18.2
+=======
+      '@babel/types': 7.20.5
+      '@types/babel__core': 7.1.20
+      '@types/babel__traverse': 7.18.3
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>= 10.14.2'
@@ -4181,7 +5358,11 @@ packages:
       integrity: sha512-PO9t0697lNTmcEHH69mdtYiOIkkOlj9fySqfO3K1eCcdISevLAE0xY59VLLUj0SoiPiTX/JU2CYFpILydUa5Lw==
   /babel-plugin-macros/3.1.0:
     dependencies:
+<<<<<<< HEAD
       '@babel/runtime': 7.20.1
+=======
+      '@babel/runtime': 7.20.6
+>>>>>>> Add existing project files to Git
       cosmiconfig: 7.1.0
       resolve: 1.22.1
     dev: true
@@ -4200,7 +5381,11 @@ packages:
       integrity: sha512-WXiAc++qo7XcJ1ZnTYGtLxmBCVbddAml3CEXgWaBzNzLNoxtQ8AiGEFDMOhot9XjTCQbvP5E77Fj9Gk924f00Q==
   /babel-plugin-polyfill-corejs2/0.3.3_@babel+core@7.12.3:
     dependencies:
+<<<<<<< HEAD
       '@babel/compat-data': 7.20.1
+=======
+      '@babel/compat-data': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/core': 7.12.3
       '@babel/helper-define-polyfill-provider': 0.3.3_@babel+core@7.12.3
       semver: 6.3.0
@@ -4209,11 +5394,19 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-8hOdmFYFSZhqg2C/JgLUQ+t52o5nirNwaWM2B9LWteozwIvM14VSwdsCAUET10qT+kmySAlseadmfeeSWFCy+Q==
+<<<<<<< HEAD
   /babel-plugin-polyfill-corejs2/0.3.3_@babel+core@7.20.2:
     dependencies:
       '@babel/compat-data': 7.20.1
       '@babel/core': 7.20.2
       '@babel/helper-define-polyfill-provider': 0.3.3_@babel+core@7.20.2
+=======
+  /babel-plugin-polyfill-corejs2/0.3.3_@babel+core@7.20.5:
+    dependencies:
+      '@babel/compat-data': 7.20.5
+      '@babel/core': 7.20.5
+      '@babel/helper-define-polyfill-provider': 0.3.3_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
       semver: 6.3.0
     dev: true
     peerDependencies:
@@ -4230,10 +5423,17 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-+eHqR6OPcBhJOGgsIar7xoAB1GcSwVUA3XjAd7HJNzOXT4wv6/H7KIdA/Nc60cvUlDbKApmqNvD1B1bzOt4nyA==
+<<<<<<< HEAD
   /babel-plugin-polyfill-corejs3/0.6.0_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-define-polyfill-provider': 0.3.3_@babel+core@7.20.2
+=======
+  /babel-plugin-polyfill-corejs3/0.6.0_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-define-polyfill-provider': 0.3.3_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
       core-js-compat: 3.26.1
     dev: true
     peerDependencies:
@@ -4249,10 +5449,17 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-NtQGmyQDXjQqQ+IzRkBVwEOz9lQ4zxAQZgoAYEtU9dJjnl1Oc98qnN7jcp+bE7O7aYzVpavXE3/VKXNzUbh7aw==
+<<<<<<< HEAD
   /babel-plugin-polyfill-regenerator/0.4.1_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       '@babel/helper-define-polyfill-provider': 0.3.3_@babel+core@7.20.2
+=======
+  /babel-plugin-polyfill-regenerator/0.4.1_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/helper-define-polyfill-provider': 0.3.3_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -4293,6 +5500,7 @@ packages:
       '@babel/core': ^7.0.0
     resolution:
       integrity: sha512-M7LQ0bxarkxQoN+vz5aJPsLBn77n8QgTFmo8WK0/44auK2xlCXrYcUxHFxgU7qW5Yzw/CjmLRK2uJzaCd7LvqQ==
+<<<<<<< HEAD
   /babel-preset-current-node-syntax/1.0.1_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
@@ -4308,6 +5516,23 @@ packages:
       '@babel/plugin-syntax-optional-catch-binding': 7.8.3_@babel+core@7.20.2
       '@babel/plugin-syntax-optional-chaining': 7.8.3_@babel+core@7.20.2
       '@babel/plugin-syntax-top-level-await': 7.14.5_@babel+core@7.20.2
+=======
+  /babel-preset-current-node-syntax/1.0.1_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      '@babel/plugin-syntax-async-generators': 7.8.4_@babel+core@7.20.5
+      '@babel/plugin-syntax-bigint': 7.8.3_@babel+core@7.20.5
+      '@babel/plugin-syntax-class-properties': 7.12.13_@babel+core@7.20.5
+      '@babel/plugin-syntax-import-meta': 7.10.4_@babel+core@7.20.5
+      '@babel/plugin-syntax-json-strings': 7.8.3_@babel+core@7.20.5
+      '@babel/plugin-syntax-logical-assignment-operators': 7.10.4_@babel+core@7.20.5
+      '@babel/plugin-syntax-nullish-coalescing-operator': 7.8.3_@babel+core@7.20.5
+      '@babel/plugin-syntax-numeric-separator': 7.10.4_@babel+core@7.20.5
+      '@babel/plugin-syntax-object-rest-spread': 7.8.3_@babel+core@7.20.5
+      '@babel/plugin-syntax-optional-catch-binding': 7.8.3_@babel+core@7.20.5
+      '@babel/plugin-syntax-optional-chaining': 7.8.3_@babel+core@7.20.5
+      '@babel/plugin-syntax-top-level-await': 7.14.5_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     peerDependencies:
       '@babel/core': ^7.0.0
@@ -4325,11 +5550,19 @@ packages:
       '@babel/core': ^7.0.0
     resolution:
       integrity: sha512-YvdtlVm9t3k777c5NPQIv6cxFFFapys25HiUmuSgHwIZhfifweR5c5Sf5nwE3MAbfu327CYSvps8Yx6ANLyleQ==
+<<<<<<< HEAD
   /babel-preset-jest/26.6.2_@babel+core@7.20.2:
     dependencies:
       '@babel/core': 7.20.2
       babel-plugin-jest-hoist: 26.6.2
       babel-preset-current-node-syntax: 1.0.1_@babel+core@7.20.2
+=======
+  /babel-preset-jest/26.6.2_@babel+core@7.20.5:
+    dependencies:
+      '@babel/core': 7.20.5
+      babel-plugin-jest-hoist: 26.6.2
+      babel-preset-current-node-syntax: 1.0.1_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>= 10.14.2'
@@ -4339,6 +5572,7 @@ packages:
       integrity: sha512-YvdtlVm9t3k777c5NPQIv6cxFFFapys25HiUmuSgHwIZhfifweR5c5Sf5nwE3MAbfu327CYSvps8Yx6ANLyleQ==
   /babel-preset-react-app/10.0.1:
     dependencies:
+<<<<<<< HEAD
       '@babel/core': 7.20.2
       '@babel/plugin-proposal-class-properties': 7.18.6_@babel+core@7.20.2
       '@babel/plugin-proposal-decorators': 7.20.2_@babel+core@7.20.2
@@ -4353,6 +5587,22 @@ packages:
       '@babel/preset-react': 7.18.6_@babel+core@7.20.2
       '@babel/preset-typescript': 7.18.6_@babel+core@7.20.2
       '@babel/runtime': 7.20.1
+=======
+      '@babel/core': 7.20.5
+      '@babel/plugin-proposal-class-properties': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-proposal-decorators': 7.20.5_@babel+core@7.20.5
+      '@babel/plugin-proposal-nullish-coalescing-operator': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-proposal-numeric-separator': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-proposal-optional-chaining': 7.18.9_@babel+core@7.20.5
+      '@babel/plugin-proposal-private-methods': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-flow-strip-types': 7.19.0_@babel+core@7.20.5
+      '@babel/plugin-transform-react-display-name': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-runtime': 7.19.6_@babel+core@7.20.5
+      '@babel/preset-env': 7.20.2_@babel+core@7.20.5
+      '@babel/preset-react': 7.18.6_@babel+core@7.20.5
+      '@babel/preset-typescript': 7.18.6_@babel+core@7.20.5
+      '@babel/runtime': 7.20.6
+>>>>>>> Add existing project files to Git
       babel-plugin-macros: 3.1.0
       babel-plugin-transform-react-remove-prop-types: 0.4.24
     dev: true
@@ -4572,7 +5822,11 @@ packages:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
   /browserslist/4.14.2:
     dependencies:
+<<<<<<< HEAD
       caniuse-lite: 1.0.30001431
+=======
+      caniuse-lite: 1.0.30001436
+>>>>>>> Add existing project files to Git
       electron-to-chromium: 1.4.284
       escalade: 3.1.1
       node-releases: 1.1.77
@@ -4584,7 +5838,11 @@ packages:
       integrity: sha512-HI4lPveGKUR0x2StIz+2FXfDk9SfVMrxn6PLh1JeGUwcuoDkdKZebWiyLRJ68iIPDpMI4JLVDf7S7XzslgWOhw==
   /browserslist/4.21.4:
     dependencies:
+<<<<<<< HEAD
       caniuse-lite: 1.0.30001431
+=======
+      caniuse-lite: 1.0.30001436
+>>>>>>> Add existing project files to Git
       electron-to-chromium: 1.4.284
       node-releases: 2.0.6
       update-browserslist-db: 1.0.10_browserslist@4.21.4
@@ -4671,7 +5929,11 @@ packages:
       glob: 7.2.3
       infer-owner: 1.0.4
       lru-cache: 6.0.0
+<<<<<<< HEAD
       minipass: 3.3.4
+=======
+      minipass: 3.3.6
+>>>>>>> Add existing project files to Git
       minipass-collect: 1.0.2
       minipass-flush: 1.0.5
       minipass-pipeline: 1.2.4
@@ -4760,16 +6022,27 @@ packages:
   /caniuse-api/3.0.0:
     dependencies:
       browserslist: 4.21.4
+<<<<<<< HEAD
       caniuse-lite: 1.0.30001431
+=======
+      caniuse-lite: 1.0.30001436
+>>>>>>> Add existing project files to Git
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: true
     resolution:
       integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==
+<<<<<<< HEAD
   /caniuse-lite/1.0.30001431:
     dev: true
     resolution:
       integrity: sha512-zBUoFU0ZcxpvSt9IU66dXVT/3ctO1cy4y9cscs1szkPlcWb6pasYM144GqrUygUbT+k7cmUCW61cvskjcv0enQ==
+=======
+  /caniuse-lite/1.0.30001436:
+    dev: true
+    resolution:
+      integrity: sha512-ZmWkKsnC2ifEPoWUvSAIGyOYwT+keAaaWPHiQ9DfMqS1t6tfuyFYoWR78TeZtznkEQ64+vGXH9cZrElwR2Mrxg==
+>>>>>>> Add existing project files to Git
   /capture-exit/2.0.0:
     dependencies:
       rsvp: 4.8.5
@@ -4845,7 +6118,11 @@ packages:
       integrity: sha512-ZmZUazfOzf0Nve7duiCKD23PFSCs4JPoYyccjUFF3aQkQadqBhfzhjkwBH2mNOG9cTBwhamM37EIsIkZw3nRgg==
   /chokidar/3.5.3:
     dependencies:
+<<<<<<< HEAD
       anymatch: 3.1.2
+=======
+      anymatch: 3.1.3
+>>>>>>> Add existing project files to Git
       braces: 3.0.2
       glob-parent: 5.1.2
       is-binary-path: 2.1.0
@@ -4878,12 +6155,20 @@ packages:
     dev: true
     resolution:
       integrity: sha512-5tK7EtrZ0N+OLFMthtqOj4fI2Jeb88C4CAZPu25LDVUgXJ0A3Js4PMGqrn0JU1W0Mh1/Z8wZzYPxqUrXeBboCQ==
+<<<<<<< HEAD
   /ci-info/3.6.1:
+=======
+  /ci-info/3.7.0:
+>>>>>>> Add existing project files to Git
     dev: false
     engines:
       node: '>=8'
     resolution:
+<<<<<<< HEAD
       integrity: sha512-up5ggbaDqOqJ4UqLKZ2naVkyqSJQgJi5lwD6b6mM748ysrghDBX0bx/qJTUHzw7zu6Mq4gycviSF5hJnwceD8w==
+=======
+      integrity: sha512-2CpRNYmImPx+RXKLq6jko/L07phmS9I02TyqkcNU20GCF/GgaWvc58hPtjxDX8lPpkdwc9sNh72V9k00S7ezog==
+>>>>>>> Add existing project files to Git
   /cipher-base/1.0.4:
     dependencies:
       inherits: 2.0.4
@@ -5642,11 +6927,19 @@ packages:
     dev: true
     resolution:
       integrity: sha512-ic1yEvwT6GuvaYwBLLY6/aFFgjZdySKTE8en/fkU3QICTmRtgtSlFn0u0BXN06InZwtfCelR7j8LRiDI/02iGA==
+<<<<<<< HEAD
   /decode-uri-component/0.2.0:
     engines:
       node: '>=0.10'
     resolution:
       integrity: sha512-hjf+xovcEn31w/EUYdTXQh/8smFL/dzYjohQGEIgjyNavaJfBY2p5F527Bo1VPATxv0VYTUC2bOcXvqFwk78Og==
+=======
+  /decode-uri-component/0.2.2:
+    engines:
+      node: '>=0.10'
+    resolution:
+      integrity: sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
+>>>>>>> Add existing project files to Git
   /dedent/0.7.0:
     dev: true
     resolution:
@@ -5995,12 +7288,15 @@ packages:
     dev: true
     resolution:
       integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==
+<<<<<<< HEAD
   /emojis-list/2.1.0:
     dev: true
     engines:
       node: '>= 0.10'
     resolution:
       integrity: sha512-knHEZMgs8BB+MInokmNTg/OyPlAddghe1YBgNwJBc5zsJi/uyIcXoSDsL/W9ymOsBoBGdPIHXYJ9+qKFwRwDng==
+=======
+>>>>>>> Add existing project files to Git
   /emojis-list/3.0.0:
     dev: true
     engines:
@@ -6322,7 +7618,11 @@ packages:
       integrity: sha512-wUxdF2bAZiYSKBclsUMrYHH6WxiBreNjyDxbRv345TIvPeoCEgPNEn3Sa+ZrSqsf1Dl9SqqSREXMHExlMMu1DA==
   /eslint-plugin-jsx-a11y/6.6.1_eslint@7.32.0:
     dependencies:
+<<<<<<< HEAD
       '@babel/runtime': 7.20.1
+=======
+      '@babel/runtime': 7.20.6
+>>>>>>> Add existing project files to Git
       aria-query: 4.2.2
       array-includes: 3.1.6
       ast-types-flow: 0.0.7
@@ -6333,7 +7633,11 @@ packages:
       eslint: 7.32.0
       has: 1.0.3
       jsx-ast-utils: 3.3.3
+<<<<<<< HEAD
       language-tags: 1.0.5
+=======
+      language-tags: 1.0.6
+>>>>>>> Add existing project files to Git
       minimatch: 3.1.2
       semver: 6.3.0
     dev: true
@@ -6802,12 +8106,20 @@ packages:
     dev: true
     resolution:
       integrity: sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==
+<<<<<<< HEAD
   /fastq/1.13.0:
+=======
+  /fastq/1.14.0:
+>>>>>>> Add existing project files to Git
     dependencies:
       reusify: 1.0.4
     dev: true
     resolution:
+<<<<<<< HEAD
       integrity: sha512-YpkpUnK8od0o1hmeSc7UUs/eB/vIPWJYjKck2QKIzAf71Vm1AAQ3EbuZB3g2JIy+pg+ERD0vqI79KyZiB2e2Nw==
+=======
+      integrity: sha512-eR2D+V9/ExcbF9ls441yIuN6TI2ED1Y2ZcA5BmMtJsOkWOFRJQ0Jt0g1UwqXJJVAb+V+umH5Dfr8oh4EVP7VVg==
+>>>>>>> Add existing project files to Git
   /faye-websocket/0.11.4:
     dependencies:
       websocket-driver: 0.7.4
@@ -7080,7 +8392,11 @@ packages:
       integrity: sha512-hcg3ZmepS30/7BSFqRvoo3DOMQu7IjqxO5nCDt+zM9XWjb33Wg7ziNT+Qvqbuc3+gWpzO02JubVyk2G4Zvo1OQ==
   /fs-minipass/2.1.0:
     dependencies:
+<<<<<<< HEAD
       minipass: 3.3.4
+=======
+      minipass: 3.3.6
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>= 8'
@@ -7266,7 +8582,11 @@ packages:
       array-union: 2.1.0
       dir-glob: 3.0.1
       fast-glob: 3.2.12
+<<<<<<< HEAD
       ignore: 5.2.0
+=======
+      ignore: 5.2.1
+>>>>>>> Add existing project files to Git
       merge2: 1.4.1
       slash: 3.0.0
     dev: true
@@ -7279,7 +8599,11 @@ packages:
       array-union: 2.1.0
       dir-glob: 3.0.1
       fast-glob: 3.2.12
+<<<<<<< HEAD
       ignore: 5.2.0
+=======
+      ignore: 5.2.1
+>>>>>>> Add existing project files to Git
       merge2: 1.4.1
       slash: 3.0.0
     dev: true
@@ -7439,7 +8763,11 @@ packages:
       integrity: sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
   /history/4.10.1:
     dependencies:
+<<<<<<< HEAD
       '@babel/runtime': 7.20.1
+=======
+      '@babel/runtime': 7.20.6
+>>>>>>> Add existing project files to Git
       loose-envify: 1.4.0
       resolve-pathname: 3.0.0
       tiny-invariant: 1.3.1
@@ -7450,7 +8778,11 @@ packages:
       integrity: sha512-36nwAD620w12kuzPAsyINPWJqlNbij+hpK1k9XRloDtym8mxzGYl2c17LnV6IAGB2Dmg4tEa7G7DlawS0+qjew==
   /history/5.0.0:
     dependencies:
+<<<<<<< HEAD
       '@babel/runtime': 7.20.1
+=======
+      '@babel/runtime': 7.20.6
+>>>>>>> Add existing project files to Git
     dev: false
     resolution:
       integrity: sha512-3NyRMKIiFSJmIPdq7FxkNMJkQ7ZEtVblOQ38VtKaA0zZMW1Eo6Q6W8oDKEflr1kNNTItSnk4JMCO1deeSgbLLg==
@@ -7695,12 +9027,20 @@ packages:
       node: '>= 4'
     resolution:
       integrity: sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
+<<<<<<< HEAD
   /ignore/5.2.0:
+=======
+  /ignore/5.2.1:
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>= 4'
     resolution:
+<<<<<<< HEAD
       integrity: sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==
+=======
+      integrity: sha512-d2qQLzTJ9WxQftPAuEQpSPmKqzxePjzVbpAVv62AQ64NTL+wR4JkrVqR/LqFsFEUsHDAiId52mJteHDFuDkElA==
+>>>>>>> Add existing project files to Git
   /immer/8.0.1:
     dev: true
     resolution:
@@ -8284,7 +9624,11 @@ packages:
       integrity: sha512-eOeJ5BHCmHYvQK7xt9GkdHuzuCGS1Y6g9Gvnx3Ym33fz/HpLRYxiS0wHNr+m/MBC8B647Xt608vCDEvhl9c6Mw==
   /istanbul-lib-instrument/4.0.3:
     dependencies:
+<<<<<<< HEAD
       '@babel/core': 7.20.2
+=======
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@istanbuljs/schema': 0.1.3
       istanbul-lib-coverage: 3.2.0
       semver: 6.3.0
@@ -8295,8 +9639,13 @@ packages:
       integrity: sha512-BXgQl9kf4WTCPCCpmFGoJkz/+uhvm7h7PFKUYxh7qarQd3ER33vHG//qaE8eN25l07YqZPpHXU9I09l/RD5aGQ==
   /istanbul-lib-instrument/5.2.1:
     dependencies:
+<<<<<<< HEAD
       '@babel/core': 7.20.2
       '@babel/parser': 7.20.3
+=======
+      '@babel/core': 7.20.5
+      '@babel/parser': 7.20.5
+>>>>>>> Add existing project files to Git
       '@istanbuljs/schema': 0.1.3
       istanbul-lib-coverage: 3.2.0
       semver: 6.3.0
@@ -8346,12 +9695,21 @@ packages:
       integrity: sha512-fDS7szLcY9sCtIip8Fjry9oGf3I2ht/QT21bAHm5Dmf0mD4X3ReNUf17y+bO6fR8WgbIZTlbyG1ak/53cbRzKQ==
   /jest-circus/26.6.0:
     dependencies:
+<<<<<<< HEAD
       '@babel/traverse': 7.20.1
       '@jest/environment': 26.6.2
       '@jest/test-result': 26.6.2
       '@jest/types': 26.6.2
       '@types/babel__traverse': 7.18.2
       '@types/node': 18.11.9
+=======
+      '@babel/traverse': 7.20.5
+      '@jest/environment': 26.6.2
+      '@jest/test-result': 26.6.2
+      '@jest/types': 26.6.2
+      '@types/babel__traverse': 7.18.3
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
       chalk: 4.1.0
       co: 4.6.0
       dedent: 0.7.0
@@ -8395,10 +9753,17 @@ packages:
       integrity: sha512-GF9noBSa9t08pSyl3CY4frMrqp+aQXFGFkf5hEPbh/pIUFYWMK6ZLTfbmadxJVcJrdRoChlWQsA2VkJcDFK8hg==
   /jest-config/26.6.3:
     dependencies:
+<<<<<<< HEAD
       '@babel/core': 7.20.2
       '@jest/test-sequencer': 26.6.3
       '@jest/types': 26.6.2
       babel-jest: 26.6.3_@babel+core@7.20.2
+=======
+      '@babel/core': 7.20.5
+      '@jest/test-sequencer': 26.6.3
+      '@jest/types': 26.6.2
+      babel-jest: 26.6.3_@babel+core@7.20.5
+>>>>>>> Add existing project files to Git
       chalk: 4.1.0
       deepmerge: 4.2.2
       glob: 7.2.3
@@ -8470,7 +9835,11 @@ packages:
       '@jest/environment': 26.6.2
       '@jest/fake-timers': 26.6.2
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
       jest-mock: 26.6.2
       jest-util: 26.6.2
       jsdom: 16.7.0
@@ -8484,7 +9853,11 @@ packages:
       '@jest/environment': 26.6.2
       '@jest/fake-timers': 26.6.2
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
       jest-mock: 26.6.2
       jest-util: 26.6.2
     dev: true
@@ -8508,8 +9881,13 @@ packages:
     dependencies:
       '@jest/types': 26.6.2
       '@types/graceful-fs': 4.1.5
+<<<<<<< HEAD
       '@types/node': 18.11.9
       anymatch: 3.1.2
+=======
+      '@types/node': 18.11.10
+      anymatch: 3.1.3
+>>>>>>> Add existing project files to Git
       fb-watchman: 2.0.2
       graceful-fs: 4.2.10
       jest-regex-util: 26.0.0
@@ -8528,12 +9906,20 @@ packages:
       integrity: sha512-easWIJXIw71B2RdR8kgqpjQrbMRWQBgiBwXYEhtGUTaX+doCjBheluShdDMeR8IMfJiTqH4+zfhtg29apJf/8w==
   /jest-jasmine2/26.6.3:
     dependencies:
+<<<<<<< HEAD
       '@babel/traverse': 7.20.1
+=======
+      '@babel/traverse': 7.20.5
+>>>>>>> Add existing project files to Git
       '@jest/environment': 26.6.2
       '@jest/source-map': 26.6.2
       '@jest/test-result': 26.6.2
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
       chalk: 4.1.0
       co: 4.6.0
       expect: 26.6.2
@@ -8617,7 +10003,11 @@ packages:
   /jest-mock/26.6.2:
     dependencies:
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>= 10.14.2'
@@ -8701,7 +10091,11 @@ packages:
       '@jest/environment': 26.6.2
       '@jest/test-result': 26.6.2
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
       chalk: 4.1.0
       emittery: 0.7.2
       exit: 0.1.2
@@ -8759,7 +10153,11 @@ packages:
       integrity: sha512-lrzyR3N8sacTAMeonbqpnSka1dHNux2uk0qqDXVkMv2c/A3wYnvQ4EXuI013Y6+gSKSCxdaczvf4HF0mVXHRdw==
   /jest-serializer/26.6.2:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
       graceful-fs: 4.2.10
     dev: true
     engines:
@@ -8768,9 +10166,15 @@ packages:
       integrity: sha512-S5wqyz0DXnNJPd/xfIzZ5Xnp1HrJWBczg8mMfMpN78OJ5eDxXyf+Ygld9wX1DnUWbIbhM1YDY95NjR4CBXkb2g==
   /jest-snapshot/26.6.2:
     dependencies:
+<<<<<<< HEAD
       '@babel/types': 7.20.2
       '@jest/types': 26.6.2
       '@types/babel__traverse': 7.18.2
+=======
+      '@babel/types': 7.20.5
+      '@jest/types': 26.6.2
+      '@types/babel__traverse': 7.18.3
+>>>>>>> Add existing project files to Git
       '@types/prettier': 2.7.1
       chalk: 4.1.0
       expect: 26.6.2
@@ -8783,7 +10187,11 @@ packages:
       jest-resolve: 26.6.2
       natural-compare: 1.4.0
       pretty-format: 26.6.2
+<<<<<<< HEAD
       semver: 7.3.2
+=======
+      semver: 7.3.8
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>= 10.14.2'
@@ -8792,7 +10200,11 @@ packages:
   /jest-util/26.6.2:
     dependencies:
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
       chalk: 4.1.0
       graceful-fs: 4.2.10
       is-ci: 2.0.0
@@ -8805,9 +10217,15 @@ packages:
   /jest-util/29.3.1:
     dependencies:
       '@jest/types': 29.3.1
+<<<<<<< HEAD
       '@types/node': 18.11.9
       chalk: 4.1.0
       ci-info: 3.6.1
+=======
+      '@types/node': 18.11.10
+      chalk: 4.1.0
+      ci-info: 3.7.0
+>>>>>>> Add existing project files to Git
       graceful-fs: 4.2.10
       picomatch: 2.3.1
     dev: false
@@ -8849,7 +10267,11 @@ packages:
     dependencies:
       '@jest/test-result': 26.6.2
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
       ansi-escapes: 4.3.2
       chalk: 4.1.0
       jest-util: 26.6.2
@@ -8870,7 +10292,11 @@ packages:
       integrity: sha512-51PE4haMSXcHohnSMdM42anbvZANYTqMrr52tVKPqqsPJMzoP6FYYDVqahX/HrAoKEKz3uUPzSvKs9A3qR4iVw==
   /jest-worker/26.6.2:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true
@@ -8880,7 +10306,11 @@ packages:
       integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==
   /jest-worker/27.5.1:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -9076,12 +10506,20 @@ packages:
     dev: true
     resolution:
       integrity: sha512-tN0MCzyWnoz/4nHS6uxdlFWoUZT7ABptwKPQ52Ea7URk6vll88bWBVhodtnlfEuCcKWNGoc+uGbw1cwa9IKh/w==
+<<<<<<< HEAD
   /language-tags/1.0.5:
+=======
+  /language-tags/1.0.6:
+>>>>>>> Add existing project files to Git
     dependencies:
       language-subtag-registry: 0.3.22
     dev: true
     resolution:
+<<<<<<< HEAD
       integrity: sha512-qJhlO9cGXi6hBGKoxEG/sKZDAHD5Hnu9Hs4WbOY3pCWXDhw0N8x1NenNzm2EnNLkLkk7J2SdxAkDSbb6ftT+UQ==
+=======
+      integrity: sha512-HNkaCgM8wZgE/BZACeotAAgpL9FUjEnhgF0FVQMIgH//zqTPreLYMb3rWYkYAqPoF75Jwuycp1da7uz66cfFQg==
+>>>>>>> Add existing project files to Git
   /last-call-webpack-plugin/3.0.0:
     dependencies:
       lodash: 4.17.21
@@ -9176,6 +10614,7 @@ packages:
       node: '>=4.3.0 <5.0.0 || >=5.10'
     resolution:
       integrity: sha512-Jsmr89RcXGIwivFY21FcRrisYZfvLMTWx5kOLc+JTxtpBOG6xML0vzbc6SEQG2FO9/4Fc3wW4LVcB5DmGflaRw==
+<<<<<<< HEAD
   /loader-utils/1.2.3:
     dependencies:
       big.js: 5.2.2
@@ -9186,6 +10625,8 @@ packages:
       node: '>=4.0.0'
     resolution:
       integrity: sha512-fkpz8ejdnEMG3s37wGL07iSBDg99O9D5yflE9RGNH3hRdx9SOwYfnGYdZOUIZitN8E+E2vkq3MUMYMvPYl5ZZA==
+=======
+>>>>>>> Add existing project files to Git
   /loader-utils/1.4.2:
     dependencies:
       big.js: 5.2.2
@@ -9526,7 +10967,11 @@ packages:
       integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==
   /mini-create-react-context/0.4.1_prop-types@15.8.1+react@17.0.1:
     dependencies:
+<<<<<<< HEAD
       '@babel/runtime': 7.20.1
+=======
+      '@babel/runtime': 7.20.6
+>>>>>>> Add existing project files to Git
       prop-types: 15.8.1
       react: 17.0.1
       tiny-warning: 1.0.3
@@ -9577,7 +11022,11 @@ packages:
       integrity: sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
   /minipass-collect/1.0.2:
     dependencies:
+<<<<<<< HEAD
       minipass: 3.3.4
+=======
+      minipass: 3.3.6
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>= 8'
@@ -9585,7 +11034,11 @@ packages:
       integrity: sha512-6T6lH0H8OG9kITm/Jm6tdooIbogG9e0tLgpY6mphXSm/A9u8Nq1ryBG+Qspiub9LjWlBPsPS3tWQ/Botq4FdxA==
   /minipass-flush/1.0.5:
     dependencies:
+<<<<<<< HEAD
       minipass: 3.3.4
+=======
+      minipass: 3.3.6
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>= 8'
@@ -9593,23 +11046,38 @@ packages:
       integrity: sha512-JmQSYYpPUqX5Jyn1mXaRwOda1uQ8HP5KAT/oDSLCzt1BYRhQU0/hDtsB1ufZfEEzMZ9aAVmsBw8+FWsIXlClWw==
   /minipass-pipeline/1.2.4:
     dependencies:
+<<<<<<< HEAD
       minipass: 3.3.4
+=======
+      minipass: 3.3.6
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>=8'
     resolution:
       integrity: sha512-xuIq7cIOt09RPRJ19gdi4b+RiNvDFYe5JH+ggNvBqGqpQXcru3PcRmOZuHBKWK1Txf9+cQ+HMVN4d6z46LZP7A==
+<<<<<<< HEAD
   /minipass/3.3.4:
+=======
+  /minipass/3.3.6:
+>>>>>>> Add existing project files to Git
     dependencies:
       yallist: 4.0.0
     dev: true
     engines:
       node: '>=8'
     resolution:
+<<<<<<< HEAD
       integrity: sha512-I9WPbWHCGu8W+6k1ZiGpPu0GkoKBeorkfKNuAFBNS1HNFJvke82sxvI5bzcCNpWPorkOO5QQ+zomzzwRxejXiw==
   /minizlib/2.1.2:
     dependencies:
       minipass: 3.3.4
+=======
+      integrity: sha512-DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==
+  /minizlib/2.1.2:
+    dependencies:
+      minipass: 3.3.6
+>>>>>>> Add existing project files to Git
       yallist: 4.0.0
     dev: true
     engines:
@@ -11057,7 +12525,11 @@ packages:
     dependencies:
       autoprefixer: 9.8.8
       browserslist: 4.21.4
+<<<<<<< HEAD
       caniuse-lite: 1.0.30001431
+=======
+      caniuse-lite: 1.0.30001436
+>>>>>>> Add existing project files to Git
       css-blank-pseudo: 0.1.4
       css-has-pseudo: 0.10.0
       css-prefers-color-scheme: 3.1.1
@@ -11608,7 +13080,11 @@ packages:
       integrity: sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
   /react-router-dom/5.2.0_react@17.0.1:
     dependencies:
+<<<<<<< HEAD
       '@babel/runtime': 7.20.1
+=======
+      '@babel/runtime': 7.20.6
+>>>>>>> Add existing project files to Git
       history: 4.10.1
       loose-envify: 1.4.0
       prop-types: 15.8.1
@@ -11623,7 +13099,11 @@ packages:
       integrity: sha512-gxAmfylo2QUjcwxI63RhQ5G85Qqt4voZpUXSEqCwykV0baaOTQDR1f0PmY8AELqIyVc0NEZUj0Gov5lNGcXgsA==
   /react-router/5.2.0_react@17.0.1:
     dependencies:
+<<<<<<< HEAD
       '@babel/runtime': 7.20.1
+=======
+      '@babel/runtime': 7.20.6
+>>>>>>> Add existing project files to Git
       history: 4.10.1
       hoist-non-react-statics: 3.3.2
       loose-envify: 1.4.0
@@ -11689,7 +13169,11 @@ packages:
       react-dev-utils: 11.0.4
       react-refresh: 0.8.3
       resolve: 1.18.1
+<<<<<<< HEAD
       resolve-url-loader: 3.1.4
+=======
+      resolve-url-loader: 3.1.5
+>>>>>>> Add existing project files to Git
       sass-loader: 10.4.1_webpack@4.44.2
       semver: 7.3.2
       style-loader: 1.3.0_webpack@4.44.2
@@ -11831,7 +13315,11 @@ packages:
       integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
   /regenerator-transform/0.15.1:
     dependencies:
+<<<<<<< HEAD
       '@babel/runtime': 7.20.1
+=======
+      '@babel/runtime': 7.20.6
+>>>>>>> Add existing project files to Git
     dev: true
     resolution:
       integrity: sha512-knzmNAcuyxV+gQCufkYcvOqX/qIIfHLv0u5x79kRxuGojfYVky1f15TzZEu2Avte8QGepvUNTnLskf8E6X6Vyg==
@@ -11977,14 +13465,22 @@ packages:
     dev: false
     resolution:
       integrity: sha512-C7rARubxI8bXFNB/hqcp/4iUeIXJhJZvFPFPiSPRnhU5UPxzMFIl+2E6yY6c4k9giDJAhtV+enfA+G89N6Csng==
+<<<<<<< HEAD
   /resolve-url-loader/3.1.4:
+=======
+  /resolve-url-loader/3.1.5:
+>>>>>>> Add existing project files to Git
     dependencies:
       adjust-sourcemap-loader: 3.0.0
       camelcase: 5.3.1
       compose-function: 3.0.3
       convert-source-map: 1.7.0
       es6-iterator: 2.0.3
+<<<<<<< HEAD
       loader-utils: 1.2.3
+=======
+      loader-utils: 1.4.2
+>>>>>>> Add existing project files to Git
       postcss: 7.0.36
       rework: 1.0.1
       rework-visit: 1.0.0
@@ -11993,7 +13489,11 @@ packages:
     engines:
       node: '>=6.0.0'
     resolution:
+<<<<<<< HEAD
       integrity: sha512-D3sQ04o0eeQEySLrcz4DsX3saHfsr8/N6tfhblxgZKXxMT2Louargg12oGNfoTRLV09GXhVUe5/qgA5vdgNigg==
+=======
+      integrity: sha512-mgFMCmrV/tA4738EsFmPFE5/MaqSgUMe8LK971kVEKA/RrNVb7+VqFsg/qmKyythf34eyq476qIobP/gfFBGSQ==
+>>>>>>> Add existing project files to Git
   /resolve-url/0.2.1:
     deprecated: https://github.com/lydell/resolve-url#deprecated
     dev: true
@@ -12095,9 +13595,15 @@ packages:
     dev: true
     resolution:
       integrity: sha512-ii4iagi25WusVoiC4B4lq7pbXfAp3D9v5CwfkY33vffw2+pkDjY1D8GaN7spsxvCSx8dkPqOZCEZyfxcmJG2IA==
+<<<<<<< HEAD
   /rollup-plugin-babel/4.4.0_@babel+core@7.20.2+rollup@1.32.1:
     dependencies:
       '@babel/core': 7.20.2
+=======
+  /rollup-plugin-babel/4.4.0_@babel+core@7.20.5+rollup@1.32.1:
+    dependencies:
+      '@babel/core': 7.20.5
+>>>>>>> Add existing project files to Git
       '@babel/helper-module-imports': 7.18.6
       rollup: 1.32.1
       rollup-pluginutils: 2.8.2
@@ -12116,6 +13622,10 @@ packages:
       rollup-pluginutils: 2.8.2
       serialize-javascript: 4.0.0
       terser: 4.8.1
+<<<<<<< HEAD
+=======
+    deprecated: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
+>>>>>>> Add existing project files to Git
     dev: true
     peerDependencies:
       rollup: '>=0.66.0 <3'
@@ -12130,7 +13640,11 @@ packages:
   /rollup/1.32.1:
     dependencies:
       '@types/estree': 1.0.0
+<<<<<<< HEAD
       '@types/node': 18.11.9
+=======
+      '@types/node': 18.11.10
+>>>>>>> Add existing project files to Git
       acorn: 7.4.1
     dev: true
     hasBin: true
@@ -12598,7 +14112,11 @@ packages:
   /source-map-resolve/0.5.3:
     dependencies:
       atob: 2.1.2
+<<<<<<< HEAD
       decode-uri-component: 0.2.0
+=======
+      decode-uri-component: 0.2.2
+>>>>>>> Add existing project files to Git
       resolve-url: 0.2.1
       source-map-url: 0.4.1
       urix: 0.1.0
@@ -12609,7 +14127,11 @@ packages:
   /source-map-resolve/0.6.0:
     dependencies:
       atob: 2.1.2
+<<<<<<< HEAD
       decode-uri-component: 0.2.0
+=======
+      decode-uri-component: 0.2.2
+>>>>>>> Add existing project files to Git
     deprecated: See https://github.com/lydell/source-map-resolve#deprecated
     dev: false
     resolution:
@@ -12716,7 +14238,11 @@ packages:
       integrity: sha512-cepbSq/neFK7xB6A50KHN0xHDotYzq58wWCa5LeWqnPrHG8GzfEjO/4O8kpmcGW+oaxkvhEJCWgbgNk4/ZV93Q==
   /ssri/8.0.1:
     dependencies:
+<<<<<<< HEAD
       minipass: 3.3.4
+=======
+      minipass: 3.3.6
+>>>>>>> Add existing project files to Git
     dev: true
     engines:
       node: '>= 8'
@@ -13098,7 +14624,11 @@ packages:
     dependencies:
       chownr: 2.0.0
       fs-minipass: 2.1.0
+<<<<<<< HEAD
       minipass: 3.3.4
+=======
+      minipass: 3.3.6
+>>>>>>> Add existing project files to Git
       minizlib: 2.1.2
       mkdirp: 1.0.4
       yallist: 4.0.0
@@ -13160,7 +14690,11 @@ packages:
       schema-utils: 3.1.1
       serialize-javascript: 5.0.1
       source-map: 0.6.1
+<<<<<<< HEAD
       terser: 5.15.1
+=======
+      terser: 5.16.1
+>>>>>>> Add existing project files to Git
       webpack: 4.44.2
       webpack-sources: 1.4.3
     dev: true
@@ -13181,7 +14715,11 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==
+<<<<<<< HEAD
   /terser/5.15.1:
+=======
+  /terser/5.16.1:
+>>>>>>> Add existing project files to Git
     dependencies:
       '@jridgewell/source-map': 0.3.2
       acorn: 8.8.1
@@ -13192,7 +14730,11 @@ packages:
       node: '>=10'
     hasBin: true
     resolution:
+<<<<<<< HEAD
       integrity: sha512-K1faMUvpm/FBxjBXud0LWVAGxmvoPbZbfTCYbSgaaYQaIXI3/TdI7a7ZGA73Zrou6Q8Zmz3oeUTsp/dj+ag2Xw==
+=======
+      integrity: sha512-xvQfyfA1ayT0qdK47zskQgRZeWLoOQ8JQ6mIgRGVNwZKdQMU+5FkCBjmv4QjcrTzyZquRw2FVtlJSRUmMKQslw==
+>>>>>>> Add existing project files to Git
   /test-exclude/6.0.0:
     dependencies:
       '@istanbuljs/schema': 0.1.3
@@ -14019,9 +15561,15 @@ packages:
       integrity: sha512-HTyTWkqXvHRuqY73XrwvXPud/FN6x3ROzkfFPsRjtw/kGZuZkPzfeH531qdUGfhtwjmtO/ZzXcWErqVzJNdXaA==
   /workbox-build/5.1.4:
     dependencies:
+<<<<<<< HEAD
       '@babel/core': 7.20.2
       '@babel/preset-env': 7.20.2_@babel+core@7.20.2
       '@babel/runtime': 7.20.1
+=======
+      '@babel/core': 7.20.5
+      '@babel/preset-env': 7.20.2_@babel+core@7.20.5
+      '@babel/runtime': 7.20.6
+>>>>>>> Add existing project files to Git
       '@hapi/joi': 15.1.1
       '@rollup/plugin-node-resolve': 7.1.3_rollup@1.32.1
       '@rollup/plugin-replace': 2.4.2_rollup@1.32.1
@@ -14033,7 +15581,11 @@ packages:
       lodash.template: 4.5.0
       pretty-bytes: 5.6.0
       rollup: 1.32.1
+<<<<<<< HEAD
       rollup-plugin-babel: 4.4.0_@babel+core@7.20.2+rollup@1.32.1
+=======
+      rollup-plugin-babel: 4.4.0_@babel+core@7.20.5+rollup@1.32.1
+>>>>>>> Add existing project files to Git
       rollup-plugin-terser: 5.3.1_rollup@1.32.1
       source-map: 0.7.4
       source-map-url: 0.4.1
@@ -14129,7 +15681,11 @@ packages:
       integrity: sha512-9xKnKw95aXwSNc8kk8gki4HU0g0W6KXu+xks7wFuC7h0sembFnTrKtckqZxbSod41TDaGh+gWUA5IRXrL0ECRA==
   /workbox-webpack-plugin/5.1.4_webpack@4.44.2:
     dependencies:
+<<<<<<< HEAD
       '@babel/runtime': 7.20.1
+=======
+      '@babel/runtime': 7.20.6
+>>>>>>> Add existing project files to Git
       fast-json-stable-stringify: 2.1.0
       source-map-url: 0.4.1
       upath: 1.2.0
